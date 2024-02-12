@@ -1,0 +1,5 @@
+1. Table 1 to table 3 in 00 folder: removed rows without any annotation
+2. statistics_result in 04 folder: p values for each peak. Table 03 in 00 folder is filtered for peaks that are significant in the statistics_result folder
+3. Should duplicate annotations (multiple peaks with the same annotation) be removed for multivariate analysis? Solve by keeping the peak with the highest overall area.
+4. Should duplicate peaks (multiple annotations for the same peak, can be problematic because of multiple columns of the same peak areas) be removed for multivariate analysis? Solve by using peaks for statistical analysis, and give significant peaks annotations afterwards. Each peak should only appear once when statistics is performed
+So first filter peaks based on same annotations. Then use the remaining unique peaks to do filtering, normalization, mv imputation, statistics. After the statistical analysis give the peaks their respective annotations (filter table 3)
