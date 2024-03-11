@@ -12,3 +12,8 @@
 - Install cudatoolkit
 - To install cuDNN, move the files according to [this](https://medium.com/analytics-vidhya/installing-cuda-and-cudnn-on-windows-d44b8e9876b5)
 - Check environment variables for CUDA_PATH and CUDA_PATH_VersionNumber
+
+## Other versions
+
+- conda and pytorch also come with cudatoolkit and cudnn, but they are not the complete package
+- Just use the installer from Nvidia

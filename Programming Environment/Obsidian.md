@@ -113,3 +113,10 @@ Another note[^3]
 
 [^3]: This is another footnote
   Yes, the same one even though this line is larger.
+
+## Highlights
+
+- Command + H: highlight menu
+- Command + Option + H: remove highlight
+- Command + Shift + H: blue highlight
+- Command + Shift + Y: yellow highlight

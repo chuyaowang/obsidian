@@ -2,11 +2,11 @@
 
 A hardware accelerator, also known as a coprocessor or co-processor, is a dedicated piece of hardware that can perform certain tasks faster than a general-purpose CPU. Hardware accelerators are often used for tasks that require a lot of repetitive calculations, such as graphics processing, video processing, and machine learning.
 
-There are many different types of hardware accelerators, each designed for a specific task. For example, a graphics processing unit (GPU) is a hardware accelerator that is designed to accelerate graphics processing. GPUs are often used in computers and game consoles to render complex graphics.
+There are many different types of hardware accelerators, each designed for a specific task. For example, a graphics processing unit (**GPU**) is a hardware accelerator that is designed to accelerate graphics processing. GPUs are often used in computers and game consoles to render complex graphics.
 
-Another example of a hardware accelerator is a video processing unit (VPU). A VPU is a hardware accelerator that is designed to accelerate video processing. VPUs are often used in computers and mobile devices to encode and decode video streams.
+Another example of a hardware accelerator is a video processing unit (**VPU**). A VPU is a hardware accelerator that is designed to accelerate video processing. VPUs are often used in computers and mobile devices to encode and decode video streams.
 
-Machine learning accelerators are a type of hardware accelerator that is designed to accelerate machine learning algorithms. Machine learning accelerators are often used in cloud computing and data centers to train and deploy machine learning models.
+**Machine learning accelerators** are a type of hardware accelerator that is designed to accelerate machine learning algorithms. Machine learning accelerators are often used in cloud computing and data centers to train and deploy machine learning models.
 
 Hardware accelerators can be used to improve the performance of a wide variety of applications, including:
 

@@ -4,3 +4,4 @@
 [腾讯文档课程资料](https://docs.qq.com/doc/DUnpnZ25vV052ZXVr)
 Homework directory: `~/R\ Projects/stomics`
 
+[文献下载](https://itic-sci.com/)
