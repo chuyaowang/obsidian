@@ -95,6 +95,7 @@ Common ones I use:
 - r
 - python, py
 - shell, sh, bash
+- javascript, js
 
 ## Footnote
 

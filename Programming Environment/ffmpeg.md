@@ -22,6 +22,25 @@
 
 `ffmpeg -i test.mp4 -i 哥谭噩梦原版视频.m4a -c:v copy -c:a aac swapped.mp4`
 
-## Transcode video
+## Transcode video and audio
 
 `ffmpeg -i demo.mp4 -vcodec copy -acodec copy out.mp4`
+`ffmpeg -i demo.aac -acodec copy out.m4a`
+
+### Windows cmd
+
+`FOR %F IN (*.aac) DO C:\ffmpeg\bin\ffmpeg.exe -i "%F" -codec copy "%~nF.m4a"`
+
+## Get thumbnail from m4a
+
+Find which stream contains the thumbnail
+```
+ffmpeg -i input.mp3
+```
+
+Get the thumbnail from the stream
+```
+ffmpeg -i input.mp3 -map 0:1 output.png
+```
+
+ffmpeg will complain but ignore it

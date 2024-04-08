@@ -46,3 +46,16 @@ alias glta='git log --graph --decorate --pretty='\''%Cred%h%Creset -%C(auto)%d%C
 ## gitee
 
 `git remote add gitee https://gitee.com/jumping-beaver/bluearchiveApp`
+
+## Track all untracked files
+
+```
+git add -A
+```
+
+Track all files under the current path
+
+```
+git add -A .
+```
+
