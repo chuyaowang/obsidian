@@ -1,10 +1,13 @@
 # Conda
 
+> [Python](Python.md) package and environment manager
+
 ## Add conda to PATH on Windows
 
 - Add `D:\miniconda3\condabin\` to path variable
 - Run `conda init` in powershell
 - Re-open powershell
+
 ## Windows proxy
 
 > [!code] Powershell Proxy Setting
@@ -18,6 +21,10 @@
 ### Install pysocks for socks support
 
 `pip install pysocks`
+
+## Create environment
+
+`conda create -n "name" pip`
 ## Update conda
 
 `conda update -n base -c defaults conda`

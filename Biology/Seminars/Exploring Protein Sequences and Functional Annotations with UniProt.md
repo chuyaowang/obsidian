@@ -1,5 +1,6 @@
 # UniProt
 
+#seminar 
 > EMBL Training
 > Paul Denny
 > Emily Bowler-Barnett

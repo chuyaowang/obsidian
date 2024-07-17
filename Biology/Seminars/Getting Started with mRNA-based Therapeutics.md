@@ -1,5 +1,6 @@
 # Getting Started with [mRNA](mRNA.md)-based Therapeutics — Myths, Considerations, and Characterization
 
+#seminar 
 > GEN Seminar
 > TriLink: a company that develop RNA therapeutics
 > Ben Hudson

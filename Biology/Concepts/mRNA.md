@@ -24,6 +24,6 @@ Small nuclear RNA (snRNA) is essential for mRNA splicing.
 
 Small interfering RNA (siRNA) mediates degradation of distinct mRNAs and closing of gene loci leading to decreased gene expression.
 
-## [Micro RNA](miRNA.md)
+## [Micro RNA](microRNA.md)
 
 Micro RNA (miRNA) blocks the translation of mRNAs.

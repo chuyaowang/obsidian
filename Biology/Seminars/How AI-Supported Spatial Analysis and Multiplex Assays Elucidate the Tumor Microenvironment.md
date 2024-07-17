@@ -1,8 +1,8 @@
 # How AI-Supported Spatial Analysis and Multiplex Assays Elucidate the Tumor Microenvironment
 
-
 > Michael Downing
 > Ultivue company
+#seminar 
 
 - A company that does assay design + experiment + whole data analysis pipeline and report generation;
 - [Cloud](AWS%20Learning%20Resources.md)-based data analysis and data sharing.
@@ -18,6 +18,7 @@
 ![](Screenshot%202024-03-25%20at%2023.19.28.png)
 
 ## From experiment to image analysis
+
 ![](Screenshot%202024-03-25%20at%2023.21.37.png)
 
 ## Report Generation

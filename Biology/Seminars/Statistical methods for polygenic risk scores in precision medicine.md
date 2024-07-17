@@ -5,7 +5,7 @@
 Others:
 > Bernie Berger
 > Alkes Price
-
+#seminar 
 ## Precision health
 
 Aim: predict disease risk with genetic variants

@@ -1,7 +1,7 @@
 # Spheroids vs. Organoids
 
 > Sponsored by Corning Life Sciences
-
+#seminar 
 ## Definitions
 
 - Spheroids: self-assembled cell aggregates, recreating 3D environment compared to 2D cultures;

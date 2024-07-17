@@ -1,5 +1,6 @@
 # Delivering on the Promise of Personalized [mRNA](mRNA.md) Therapeutics
 
+#seminar 
 > See also [mRNA therapeutics](Getting%20Started%20with%20mRNA-based%20Therapeutics.md)
 > GEN webinar, sponsored by ThermoFisher
 

@@ -1,5 +1,6 @@
 # Future Laboratory
 
+#seminar 
 > GEN seminar
 > LabVantage
 > TCG Digital

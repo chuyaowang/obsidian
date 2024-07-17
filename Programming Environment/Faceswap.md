@@ -1,5 +1,7 @@
 # Facefusion
 
+>[Python](Python.md) face swap tool
+
 ## [Installation](https://docs.facefusion.io/installation) on Windows
 
 - Set proxy via [powershell](conda.md#^377d00)

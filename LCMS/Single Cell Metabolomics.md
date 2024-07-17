@@ -7,7 +7,7 @@ Previously metabolomics is only available at the cell population level. Lipids, 
 Speakers:
 - Theodore Alexandrov, EMBL
 - Anne Le, Gigantest
-
+#seminar 
 ## Why single cells
 
 Metabolism is different in every cell. In cell therapies where immune cells are introduced, the metabolism of one cell will determine the phenotype of all the cells that derive from it. Just like single cell RNA-seq, at the single cell resolution, a lot of new mechanics can be uncovered. 

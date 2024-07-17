@@ -93,9 +93,9 @@ Add different highlighting to code languages in code blocks by add the language 
 
 Common ones I use:
 - r
-- python, py
+- [python](Python.md), py
 - shell, sh, bash
-- javascript, js
+- javascript, [js](JS.md)
 
 ## Footnote
 

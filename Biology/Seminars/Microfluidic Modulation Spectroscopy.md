@@ -4,6 +4,7 @@
 
 > Jan Schaefer, RedShift BioAnalytics, Inc.
 > Near Boston
+#seminar 
 
 - Limitation in current protein assessment:
 	- Stability: DSC or DSF

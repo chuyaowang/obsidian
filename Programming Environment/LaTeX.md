@@ -7,7 +7,7 @@ A typesetting language
 Choose a distribution: BasicTeX, MikTeX, TeX Live (MacTex).
 I chose BasicTex. MacTeX is the complete version and very large. MikTeX does not come with perl.
 
-Install via homebrew: 
+Install via [homebrew](homebrew.md): 
 > [!code] bash
 > brew install homebrew/cask/basictex
 ^912efa

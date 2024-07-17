@@ -44,3 +44,13 @@ ffmpeg -i input.mp3 -map 0:1 output.png
 ```
 
 ffmpeg will complain but ignore it
+
+## View all streams
+
+`ffprobe -i file.mkv`
+
+## Extract subtitles
+
+```
+ffmpeg -i Movie.mkv -map 0:s:0 subs.srt
+```

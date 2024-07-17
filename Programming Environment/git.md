@@ -53,9 +53,8 @@ alias glta='git log --graph --decorate --pretty='\''%Cred%h%Creset -%C(auto)%d%C
 git add -A
 ```
 
-Track all files under the current path
+Track all files under the current path. There is a period at the end.
 
 ```
 git add -A .
 ```
-

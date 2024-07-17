@@ -1,5 +1,6 @@
 # A paper presented in seminar
 
+#seminar 
 ## Steps
 
 1. Identified Kcnb1_R312H, a voltage-sensing protein in potassium channel as an important factor in neurodevelopment.
