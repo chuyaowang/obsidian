@@ -2,7 +2,7 @@
 
 ## Definition
 
-A promoter is a region of DNA that controls the initiation of transcription of a gene. It is located upstream of the gene, on the same strand of DNA. Promoters are typically about 100-1000 base pairs long, and they contain specific sequences that bind to [transcription factors](Transcription%20Factor.md). Transcription factors are proteins that [regulate](Transcription%20Regulation.md) gene expression. When transcription factors bind to the promoter, they help to recruit RNA polymerase, the enzyme that transcribes DNA into RNA.
+A promoter is a region of DNA that controls the initiation of transcription of a gene. It is located upstream of the gene, on the same strand of DNA. Promoters are typically about 100-1000 base pairs long, and they contain specific sequences that **bind** to [transcription factors](Transcription%20Factor.md). Transcription factors are proteins that [regulate](Transcription%20Regulation.md) gene expression. When transcription factors bind to the promoter, they help to recruit RNA polymerase, the enzyme that transcribes DNA into RNA.
 
 The promoter is a critical part of the gene regulatory network. It determines when and how a gene is expressed. Promoters can be regulated by a variety of factors, including the cell type, the developmental stage, and the environment.
 

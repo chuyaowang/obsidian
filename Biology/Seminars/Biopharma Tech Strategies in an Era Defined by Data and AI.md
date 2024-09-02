@@ -1,6 +1,7 @@
 # Biopharma Tech Strategies in an Era Defined by Data and AI
 
 > GEN Webinar
+> #seminar 
 
 ## Eli Lilly
 

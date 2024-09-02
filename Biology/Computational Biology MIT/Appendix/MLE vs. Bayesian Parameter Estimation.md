@@ -78,7 +78,7 @@ $$
 
 ### The prior
 
-The prior can be hard to define as a probability distribution. It is also argued that since different prior beliefs will lead to different posteriors, the Bayesian approach is not scientific enough. The counter argument says that many subject choices are already made in conducting an experiment.
+The prior can be hard to define as a probability distribution. It is also argued that since different prior beliefs will lead to different posteriors, the Bayesian approach is not scientific enough. The counter argument says that many subjective choices are already made in conducting an experiment.
 
 ### The constant of integration
 

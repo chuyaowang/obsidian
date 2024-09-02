@@ -2,7 +2,7 @@
 
 **Regulatory candidate genes** are genes that are proposed or hypothesized to have a role in regulating biological processes, pathways, or networks. These genes are often identified through various experimental, computational, and bioinformatic approaches and are candidates for further functional validation. Regulatory candidate genes can influence gene expression, signal transduction, metabolic pathways, and other critical cellular functions.
 
-### Identification of Regulatory Candidate Genes
+## Identification of Regulatory Candidate Genes
 
 1. **Genomic Studies**:
     - **Genome-Wide Association Studies (GWAS)**: GWAS identify genetic variants associated with specific traits or diseases. Candidate genes near these variants are considered potential regulators of the observed phenotype.
@@ -14,7 +14,7 @@
 
 3. **Epigenomic and Chromatin Studies**:
     - **ChIP-seq**: Chromatin Immunoprecipitation followed by sequencing identifies binding sites of transcription factors and other DNA-binding proteins. Genes near these sites are candidates for regulation by the identified proteins.
-    - **[ATAC-seq](scATAC-seq.md) and DNase-seq**: These methods identify [Open Chromatin Regions](Open%20Chromatin%20Regions.md), suggesting potential regulatory regions. Genes near these regions are candidate regulatory genes.
+    - **[ATAC-seq](scATAC-seq.md) and DNase-seq**: These methods identify [Open Chromatin Regions](Open%20Chromatin%20Regions.md), suggesting potential regulatory regions. _Genes near these regions_ are candidate regulatory genes.
 
 4. **Functional Genomics**:
     - **CRISPR/Cas9 Screening**: Genome-wide CRISPR screens can identify genes whose disruption affects specific phenotypes, highlighting their regulatory roles.
@@ -24,7 +24,7 @@
     - **Motif Analysis**: Identifying DNA motifs (specific sequences) that are binding sites for known transcription factors can suggest candidate regulatory genes.
     - **Network Analysis**: Computational models and [network Analysis](GRN%20Analysis.md) can identify key nodes or hubs in regulatory networks that are candidate regulatory genes.
 
-### Functional Validation of Regulatory Candidate Genes
+## Functional Validation of Regulatory Candidate Genes
 
 Once candidate genes are identified, they undergo functional validation to confirm their regulatory roles. This process includes:
 
@@ -43,7 +43,7 @@ Once candidate genes are identified, they undergo functional validation to confi
 5. **Functional Assays**:
     - Performing assays to measure cellular functions, such as cell proliferation, differentiation, apoptosis, or metabolic activity, in the presence or absence of the candidate gene.
 
-### Examples and Applications
+## Examples and Applications
 
 - **Disease Research**: Identifying regulatory candidate genes involved in diseases (e.g., cancer, diabetes, cardiovascular diseases) can provide insights into disease mechanisms and potential therapeutic targets.
 - **Developmental Biology**: Studying candidate genes that regulate developmental processes can reveal key regulators of cell differentiation, tissue formation, and organogenesis.

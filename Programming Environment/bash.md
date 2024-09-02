@@ -17,3 +17,13 @@ In this specific case, the `find` command is searching for files in the director
 ## Setting proxy
 
 https://askubuntu.com/questions/583797/how-to-set-a-proxy-for-terminal
+
+## Remove last line
+
+```bash
+sed -i '$ d' foo.txt
+```
+
+```bash
+sed -i '' -e '$ d' foo.txt
+```

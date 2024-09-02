@@ -218,3 +218,7 @@ Also network topology is an important piece of information from network.
 ### Why not use proximity based embeddings to compare?
 
 As [Simple network](#Simple%20network) showed, proximity based methods cannot accurately capture structural information of genes.
+
+
+
+

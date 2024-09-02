@@ -6,8 +6,8 @@
 #paper 
 
 difference between doing ANOVA or PLS-DA?
-identify cell subpopulations, metagene grouping, hierarchy
-outperforms baseline clustering method
+- identify cell subpopulations, metagene grouping, hierarchy
+- outperforms baseline clustering method
 
 ## Abstract
 
@@ -33,6 +33,13 @@ When aiming to uncover factors related to a specific biological signal, it is a 
 
 The bioIB algorithm outputs a compressed representation of scRNA data with **metagenes**, which are clustered probabilistic mapping of genes. The probabilistic construction preserves gene-level biological _interpretability_, allowing characterization of each metagene.
 
+> [!info] Clustered Probabilistic Mapping of Genes
+> The genes are mapped into clusters called metagenes. The mapping is not absolute but probabilistic. 
+> 
+> For example, gene $g_i$ might have a 70% probability of belonging to metagene $M_1$, a 20% probability of belonging to metagene $M_2$​, and a 10% probability of belonging to metagene $M_3$. 
+> 
+> Using a probabilistic approach captures the inherent complexity in biological data. Genes may be involved in multiple pathways and functions.
+
 Compared with dimensionality reduction techniques such as PCA, bioIB takes into account the biological signal. Compared with deep learning clustering methods, BioIB is more interpretable.
 
 BioIB also outputs a hierarchy of metagenes, reflecting the inherent data structure relative to the signal of interest, elucidating their significance in distinguishing between biological labels, and illustrating their interrelations with both one another and the underlying cellular populations. 
@@ -47,7 +54,7 @@ $R$ means real numbers
 
 Input to bioIB: a count matrix $X\in{R^{N\times{G}}}$, where N is the number of cells and G the number of genes; a vector of cell labels $S\in{R^{N\times1}}$. 
 
-BioIB outputs a compressed representation $\hat{X}\in{R^{N\times{M}}}$ of $N$ cells and $M$ metagenes, which optimizes tradeoff between compression and information about the signal of interest, denoted by $Y\in{R^K}$. $Y$ is all possible cell states, like {disease, healthy}. $S$ must be a member of $Y$, or $\forall{i}$, $S_i\in{Y}$. Metagenes signify major patterns of gene expression variation underlying the labeled signal.
+BioIB outputs a compressed representation $\hat{X}\in{R^{N\times{M}}}$ of $N$ cells and $M$ metagenes, which optimizes tradeoff between compression and information about the signal of interest, denoted by $Y\in{R^K}$. $Y$ is all possible cell states, like {disease, healthy}. Members of $S$ must be a member of $Y$, or $\forall{i}$, $S_i\in{Y}$. Metagenes signify major patterns of gene expression variation underlying the labeled signal.
 
 $\hat{X}$ is obtained by minimizing the **mutual information** with the original data $X$, representing complexity, and maximizing the mutual information with the label $Y$, representing accuracy. $$\hat{X} = argmin_\hat{X}(I(X,\hat{X})-\beta{I(\hat{X},Y)})$$
 The parameter $\beta$ determines the the level of compression. When it is $\infty$, it means only maximize accuracy, or no compression, $X=\hat{X}$. When it is 0, it means only minimize complexity, or cluster all genes into 1 cluster. Hence, $\beta$ determines the number of clusters. The hierarchy of metagenes is obtained by gradually decreasing $\beta$ in a reverse-annealing process.
@@ -62,7 +69,7 @@ bioIB can also capture the relationships between related cell types, defined as 
 
 Heterogeneity can be attributed to multiple factors, like organ of origin and developmental stage. Using bioIB, different compression of data can be achieved by selecting different signals of interest.
 
-Chose to look at macrophages. 
+Chose to look at macrophages from different organs and different developmental stages. 
 
 Looking at the hierarchy, found a metagene specific to late gestational stage. GO analysis found they are enriched for immune processes. 
 
