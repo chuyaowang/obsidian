@@ -44,3 +44,17 @@ ln <file> <link>
 ^macoslink
 
 - To remove the link, just `rm` it.
+
+## Too many levels of symbolic links
+
+[Reference](https://www.baeldung.com/linux/too-many-levels-of-symlinks)
+
+The symlink created on MacOS and Linux using `ln -s file link` can be broken if the paths are specified using relative paths. 
+
+Essentially, the symlinks with relative sources are always relative to the folder in which the symlink is located.
+
+Say you inside a `topDir/` have a `source.txt` and a `dir/` folder, you create the link with `ln -s source.txt dir/`. This creates a `dir/source.txt(symlink)`. However, when you use `source.txt(symlink)`, it looks for the original `source.txt` not in the `topDir/` but in `dir/`. This is because the symlink is inside `dir/` and you defined it using relative links. So what does it find? It finds itself since symlinks have the same names. This creates an infinite loop of calling itself!
+
+Solution:
+1. Use absolute paths when creating the link
+2. Use relative paths, but adjust based on where the symlink is located, and make sure it points to the original correctly `ln -s ../source.txt dir/`. Here we make sure the symlink under `dir/` points to `source.txt` in `../`, which is `topDir/`, where the original `source.txt` is located.

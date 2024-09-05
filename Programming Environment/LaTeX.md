@@ -34,3 +34,7 @@ Install latexmk: `sudo tlmgr install latexmk`
 ## OCR service to generate LaTeX math formulas
 
 [Link](https://simpletex.cn/ai/latex_ocr)
+
+## Code snippets
+
+$$\operatorname*{argmin}_\boldsymbol{\phi}$$

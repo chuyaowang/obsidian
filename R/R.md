@@ -59,3 +59,15 @@ https://stackoverflow.com/questions/52061664/install-r-package-from-github-using
 conda skeleton cran <github_url>
 conda build --R=<my_r_version> r-<lower-case-package-name>
 ```
+
+## set package mirror
+
+In .Rprofile, enter
+
+``` 
+options(repos = c(CRAN = 'https://mirrors.bfsu.edu.cn/CRAN/'))
+options(BioC_mirror='https://mirrors.westlake.edu.cn/bioconductor')
+```
+
+sets CRAN and bioconductor mirrors
+
