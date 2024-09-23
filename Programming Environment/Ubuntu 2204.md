@@ -150,6 +150,7 @@ sudo apt install tlp
 sudo tlp start
 tlp-stat -s
 tlp-stat -b
+sudo systemctl enable tlp
 ```
 
 Edit charge level:

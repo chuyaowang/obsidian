@@ -85,4 +85,3 @@ The prior can be hard to define as a probability distribution. It is also argued
 It is sometimes hard to calculate or even intractable. When it cannot be calculated the Bayesian approach cannot be used.
 
 An alternative way is to use Markov Chain Monte Carlo (MCMC) sampling, a method that provided a way to estimate the posterior distribution without having to calculate the constant of integration, making it more accessible for Bayesian inference.
-

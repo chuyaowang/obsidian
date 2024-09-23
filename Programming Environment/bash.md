@@ -104,3 +104,10 @@ unzip file # unzip the file in the current directory
 ### extra: awk, job control
 
 https://carpentries-incubator.github.io/shell-extras/
+
+## Get storage space information
+
+``` sh
+sudo du -hx --max-depth=1 /
+```
+

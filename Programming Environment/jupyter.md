@@ -85,3 +85,7 @@ jupyter kernelspec uninstall unwanted-kernel
 ``` sh
 jupyter lab --port=8080 --no-browser
 ```
+
+## auto-complete
+
+https://ericmjl.github.io/data-science-bootstrap-notes/turbocharge-jupyter-lab-using-language-servers/

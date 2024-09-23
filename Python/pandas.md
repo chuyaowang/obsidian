@@ -11,4 +11,4 @@
 
 ## Query
 
-- `df.query('A'== 3)`:  find matches in the data frame
+- `df.query('A== 3')`:  find matches in the data frame

@@ -1,6 +1,6 @@
 # Orthogonal Matrix
 
-- An orthogonal matrix, or orthonormal matrix, is a real square matrix whose columns and rows are orthonormal vectors
+- An orthogonal matrix, or orthonormal matrix, is a real square matrix whose columns and rows are [Orthonormal Vectors](Orthonormal%20Vectors.md)
 - Equivalent expressions:
 	- $Q^TQ=QQ^T=I$
 	- $Q^T=Q^{-1}$
