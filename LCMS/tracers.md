@@ -1,5 +1,9 @@
 # Optimal tracers for MFA
 
+[Paper](file:////Users/wangchuyao/Documents/seminars/mfa/model/tracer/Optimal%20tracers%20for%20parallel%20labeling%20experiments.pdf)
+#paper 
+
+
 ## Intro
 
 Choice of tracer **very** important for labeling efficiency and precision of flux estimation (i.e. confidence interval)

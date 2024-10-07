@@ -2,7 +2,7 @@
 
 The Pearson correlation coefficient is a measure of the **linear relationship** between two vectors (or sets of data). It quantifies how much one variable changes in response to changes in another variable, giving both the direction and the strength of the relationship.
 
-### Definition
+## Definition
 
 Given two vectors $\mathbf{x}$ and $\mathbf{y}$ of length $n$, the Pearson correlation coefficient $r$ is defined as:
 
@@ -12,7 +12,20 @@ where:
 - $x_i$ and $y_i$ are the individual elements of the vectors $\mathbf{x}$ and $\mathbf{y}$, respectively.
 - $\bar{x}$ and $\bar{y}$ are the means of the vectors $\mathbf{x}$ and $\mathbf{y}$, respectively.
 
-### Interpretation
+> [!info] Pearson's correlation is related to cosine similarity
+> The Pearson's correlation can be considered as the cosine of the angle between the two vectors centered around the mean.
+> 
+> To calculate the cosine of the angle between two vectors $\mathbf{A}$ and $\mathbf{B}$, you use the **dot product** formula. Specifically, the cosine of the angle $\theta$ between the two vectors is given by:
+> 
+> $$
+> \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
+> $$
+> , where the top is the dot product between $\mathbf{A}$ and $\mathbf{B}$. The bottom is the Euclidean norm of $\mathbf{A}$ and $\mathbf{B}$.
+> 
+> This is also called the **cosine similarity**. When two vectors are perfectly aligned (angle=0), cosine similarity = 1; when the vectors are orthogonal, the cosine similarity is 0; when they are inversely proportional, the cosine similarity is -1.
+> The cosine similarity measures the similarity in **direction**. By subtracting the mean from the values, Pearson correlation measures **linearity** between the two vectors.
+ 
+## Interpretation
 
 1. **Value Range**: The Pearson correlation coefficient $r$ ranges from -1 to 1.
    - $r = 1$: Perfect positive linear relationship. As one variable increases, the other variable increases proportionally.
@@ -23,7 +36,7 @@ where:
    - $|r|$ close to 1: Strong linear relationship.
    - $|r|$ close to 0: Weak or no linear relationship.
 
-### What Pearson Correlation Tells Us
+## What Pearson Correlation Tells Us
 
 1. **Direction**: The sign of $r$ indicates the direction of the relationship:
    - Positive $r$: Both variables tend to increase together.
@@ -35,7 +48,7 @@ where:
 
 3. **Linearity**: Pearson correlation specifically measures the strength and direction of a linear relationship. It does not capture non-linear relationships.
 
-### Example
+## Example
 
 Consider two vectors $\mathbf{x} = [1, 2, 3, 4, 5]$ and $\mathbf{y} = [2, 4, 6, 8, 10]$:
 
@@ -54,7 +67,7 @@ Consider two vectors $\mathbf{x} = [1, 2, 3, 4, 5]$ and $\mathbf{y} = [2, 4, 6, 
 
 This indicates a perfect positive linear relationship between $\mathbf{x}$ and $\mathbf{y}$.
 
-### Caveats
+## Caveats
 
 - **Linearity**: Pearson correlation measures linear relationships only. If the relationship is non-linear, $r$ might be close to 0 even if there is a strong relationship.
 - **Outliers**: Sensitive to outliers, which can disproportionately affect the correlation.

@@ -1,4 +1,6 @@
-# Seminars
+# Organoid Applications in Biomedicine Industry
+
+#seminar 
 
 ## *Hydrogels* emulate the extracellular matrix for unbiased in vivo and in vitro *organoid formation and drug testing* 
 

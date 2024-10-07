@@ -2,7 +2,7 @@
 
 ## Overview
 
-MicroRNAs (miRNAs) are small non-coding RNA molecules that play important regulatory roles in gene expression. They are found in many organisms, including plants, animals, and even some viruses. MiRNAs are typically composed of approximately 21-23 nucleotides and are involved in post-transcriptional gene regulation.
+MicroRNAs (miRNAs) are small non-coding RNA molecules that play important regulatory roles in gene expression. They are found in many organisms, including plants, animals, and even some viruses. MiRNAs are typically composed of approximately 21-23 nucleotides and are involved in **post-transcriptional gene regulation**.
 
 miRNA or [siRNA](Small%20Interfering%20RNA.md) can induce degradation of [mRNA](mRNA.md) by forming a RNA-protein complex called **RNA-induced silencing complex** (RISC) with the Argonaute protein.
 

@@ -231,3 +231,7 @@ https://askubuntu.com/questions/1189835/the-initramfs-will-attempt-to-resume-fro
 ## Change Ubuntu mirror
 
 Go into Software & Updates, choose new server location.
+
+## Install fonts (like Times New Roman)
+
+https://itsfoss.com/install-microsoft-fonts-ubuntu/

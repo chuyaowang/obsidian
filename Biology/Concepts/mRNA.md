@@ -4,7 +4,7 @@
 
 ### Sense and antisense strand
 
-The sense strand is the top strand. It has the same sequence as the mRNA except T is exchanged for U in mRNA. The antisense strand is the complement to the sense strand and the template for transcription.
+The sense strand is the top strand in [Transcription](Transcription.md). It has the same sequence as the mRNA except T is exchanged for U in mRNA. The antisense strand is the complement to the sense strand and the template for transcription.
 
 Regulators that bind to the antisense strand can stop transcription from happening, acting as a gene [regulatory mechanism](Transcription%20Regulation.md).
 
@@ -25,6 +25,14 @@ The introns do not code for proteins, only the exons do. The introns must be rem
 **Alternative splicing** is a mechanism that combines different exons in the same gene to produce different proteins. 
 
 The nucleotide sequences GU and AG are splicing signals, but having those signals does not indicate mandatory splicing. Splicing only takes place at the intersection between introns and exons.
+
+## Comparison to bacterial mRNA
+
+A human mRNA has a special 5' cap, while a bacterial mRNA does not.
+A typical human mRNA encodes one protein, while many bacterial mRNAs encode several different proteins.
+A human mRNA undergoes alternative splicing, while a bacterial mRNA does not.
+A human mRNA has a poly-A tail, while a bacterial mRNA does not.
+Both human and bacterial mRNA contain non-coding sequences.
 
 ## Small nuclear RNA
 
