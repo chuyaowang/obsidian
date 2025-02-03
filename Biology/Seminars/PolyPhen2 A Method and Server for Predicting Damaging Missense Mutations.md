@@ -9,7 +9,8 @@ PolyPhen2 uses 8 sequence-based and 3 structure-based predictive features, selec
 
 ## PolyPhen2 vs. PolyPhen
 
-
+Naive bayes classifier.
+Different features.
 
 ## Training Data
 
@@ -23,7 +24,7 @@ PolyPhen2 has two flavors trained on two sets of data, suitable for different ta
 	- Damaging/benign mutation in one species may not act the same in another species.
 	- Presence of redundant pathways, regulatory mechanisms, different reactions, etc. can cause this difference.
 
-Suitable for rare alleles at loci potentially involved in complex phenotypes, for dense mapping of regions identified by genome-wide association studies and for analysis of natural selection from sequence data, in which even mildly deleterious alleles must be treated as damaging.
+Suitable for _rare alleles_ at loci potentially involved in complex phenotypes, for dense mapping of regions identified by genome-wide association studies and for analysis of natural selection from sequence data, in which even mildly deleterious alleles must be treated as damaging.
 
 ### HumVar
 
@@ -32,6 +33,6 @@ Suitable for rare alleles at loci potentially involved in complex phenotypes, fo
 
 The nsSNPs of the HumVar dataset, which are assumed to be benign, include a sizable fraction of **mildly deleterious** alleles.
 
-Diagnostics of Mendelian diseases require distinguishing mutations with drastic effects from other human variation, including abundant mildly deleterious alleles, 
+Diagnostics of _Mendelian_ diseases require distinguishing mutations with drastic effects from other human variation, including abundant mildly deleterious alleles, 
 
 

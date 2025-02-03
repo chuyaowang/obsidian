@@ -2,6 +2,11 @@
 
 ## Phases
 
+3 steps:
+- Cell growth
+- Chromosome segregation
+- Cell division
+
 The cell cycle consists of four main phases:
 
 1. **G1 Phase (Gap 1 phase)**: This is the first growth phase where the cell grows and carries out its normal functions. It prepares for DNA replication.
@@ -15,6 +20,31 @@ The cell cycle consists of four main phases:
    - **Cytokinesis**: The division of the cytoplasm and other organelles to form two separate daughter cells.
 
 These phases ensure that the cell grows, replicates its DNA accurately, and divides properly into two daughter cells.
+
+Checkpoints have to be met to proceed to the next phase.
+
+### Cyclically activated cyclin-dependent protein kinases (Cdks)
+
+Controls cell cycle
+
+### M phase
+
+Prophase:
+- Condensation of choromosones
+- Centrosome
+
+Some phase here
+
+Metaphase
+
+Anaphase
+- Chromosomes are pulled apart.
+
+Telophase
+- Nucleus form for each copy of chromosomes.
+
+Cytokinesis
+
 
 ## Activities
 
@@ -43,8 +73,6 @@ The steps you mentioned—DNA helicase deposition, ORC phosphorylation, helicase
 - **Licensing** ensures origins are ready for replication but used only once per cell cycle.
 
 These processes are tightly regulated to maintain genomic integrity during cell division.
-
-Like our GPT? Try our full AI-powered search engine and academic features for free at [consensus.app](https://consensus.app/?utm_source=chatgpt).
 
 ## Cell Cycle Heterogeneity
 

@@ -1,6 +1,6 @@
 # The Universal Approximation Theorem
 
-The Universal Approximation Theorem is a fundamental result in the field of artificial neural networks and machine learning. It provides insight into the capabilities of neural networks by stating that under certain conditions, [a feedforward neural network with a single hidden layer](0.%20Understanding%20Deep%20Learning.md##Shallow%20Neural%20Networks) containing a sufficient number of neurons can approximate any continuous function to an arbitrary degree of accuracy within a specific interval.
+The Universal Approximation Theorem is a fundamental result in the field of artificial neural networks and machine learning. It provides insight into the capabilities of neural networks by stating that under certain conditions, [a feedforward neural network with a single hidden layer](3.%20UDL%20Shallow%20Neural%20Networks.md) containing a sufficient number of neurons can approximate any continuous function to an arbitrary degree of accuracy within a specific interval.
 
 Here's a more detailed explanation of the Universal Approximation Theorem:
 

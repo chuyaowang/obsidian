@@ -9,12 +9,14 @@ https://github.com/IRkernel/IRkernel
 ## install to a specific name and path
 
 ``` r
-IRkernel::installspec(name = 'ir33', displayname = 'R 3.3', predix='/opt/miniconda3',verbose=TRUE)
+IRkernel::installspec(name = 'ir33', displayname = 'R 3.3', prefix='/opt/miniconda3',verbose=TRUE)
 ```
 
 The prefix determines where to install the kernel. Make it the same for every kernel.
 
 Run `jupyter kernelspec` to see where is the base environment kernel is.
+
+On MacOS install to `/opt/homebrew/Caskroom/miniconda/base`
 
 ## With renv
 

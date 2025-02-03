@@ -1,6 +1,6 @@
 # The Gauss-Markov Theorem
 
-The Gauss-Markov theorem, also known as the Gauss-Markov assumptions or the Gauss-Markov conditions, is a fundamental concept in the field of statistics and econometrics. It provides conditions under which the Ordinary Least Squares (OLS) method is the Best Linear Unbiased Estimator (BLUE) of the parameters in a [linear regression](0.%20Understanding%20Deep%20Learning.md###Linear%20Regression) model. In simpler terms, it establishes the conditions under which OLS estimates are unbiased, have the minimum variance among all linear estimators, and are normally distributed.
+The Gauss-Markov theorem, also known as the Gauss-Markov assumptions or the Gauss-Markov conditions, is a fundamental concept in the field of statistics and econometrics. It provides conditions under which the Ordinary Least Squares (OLS) method is the Best Linear Unbiased Estimator (BLUE) of the parameters in a [Linear Regression](2.%20UDL%20Supervised%20Learning.md#Linear%20Regression) model. In simpler terms, it establishes the conditions under which OLS estimates are unbiased, have the minimum variance among all linear estimators, and are normally distributed.
 
 The Gauss-Markov theorem assumes the following conditions for a linear regression model:
 

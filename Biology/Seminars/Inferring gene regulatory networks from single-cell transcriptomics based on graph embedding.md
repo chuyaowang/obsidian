@@ -11,7 +11,7 @@ Supervised GRN inference model. Low performance in real data. Poor documentation
 Requires reference network to train the model before making predictions.
 ## Introduction
 
-[Gene Regulatory Network](Gene%20Regulatory%20Network.md) inference is the process of predicting [Transcription Factor](Transcription%20Factor.md) - Gene interactions from gene expression data. There are [Unsupervised](0.%20Understanding%20Deep%20Learning.md#Unsupervised%20Learning) and [Supervised Learning](0.%20Understanding%20Deep%20Learning.md#Supervised%20Learning) methods. 
+[Gene Regulatory Network](Gene%20Regulatory%20Network.md) inference is the process of predicting [Transcription Factor](Transcription%20Factor.md) - Gene interactions from gene expression data. There are [Unsupervised Learning](1.%20UDL%20Introduction.md#Unsupervised%20Learning) and [Supervised Learning](1.%20UDL%20Introduction.md#Supervised%20Learning) methods. 
 
 In general, these methods composed of two steps:
 1. Converting the gene expression data to a suitable format

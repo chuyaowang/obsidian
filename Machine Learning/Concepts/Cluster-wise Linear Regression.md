@@ -2,7 +2,7 @@
 
 ## Definition
 
-Cluster-wise regularized linear regression (CLR) is a machine learning method that combines clustering and [linear regression](0.%20Understanding%20Deep%20Learning.md###Linear%20Regression). It is used to model data that is heterogeneous, meaning that the data points do not follow a single linear relationship. CLR works by first clustering the data points into groups that are similar to each other. Then, a linear regression model is fit to each cluster. This allows the model to capture the different linear relationships that exist in the data.
+Cluster-wise regularized linear regression (CLR) is a machine learning method that combines clustering and [Linear Regression](2.%20UDL%20Supervised%20Learning.md#Linear%20Regression). It is used to model data that is heterogeneous, meaning that the data points do not follow a single linear relationship. CLR works by first clustering the data points into groups that are similar to each other. Then, a linear regression model is fit to each cluster. This allows the model to capture the different linear relationships that exist in the data.
 
 ## Application
 

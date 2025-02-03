@@ -236,7 +236,7 @@ y_pred = model.predict(X)
 
 ## L2 norm
 
-L2 regularization gets its name from the L2 norm, which is also known as the Euclidean norm. The L2 norm of a vector is defined as the square root of the sum of the squares of its components (like how the Euclidean distance is calculated). 
+L2 regularization gets its name from the L2 norm, which is also known as the [Euclidean norm](Euclidean%20Norm.md). The L2 norm of a vector is defined as the square root of the sum of the squares of its components (like how the Euclidean distance is calculated). 
 
 ### L2 Norm
 

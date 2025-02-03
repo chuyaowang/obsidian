@@ -1,6 +1,6 @@
 # Pearson Correlation
 
-The Pearson correlation coefficient is a measure of the **linear relationship** between two vectors (or sets of data). It quantifies how much one variable changes in response to changes in another variable, giving both the direction and the strength of the relationship.
+The Pearson correlation coefficient is a measure of the **linear relationship** between two vectors (or sets of data). It quantifies how much one variable changes in response to changes in another variable, giving both the direction and the strength of the relationship. ^4c49aa
 
 ## Definition
 
@@ -11,20 +11,30 @@ $r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (
 where:
 - $x_i$ and $y_i$ are the individual elements of the vectors $\mathbf{x}$ and $\mathbf{y}$, respectively.
 - $\bar{x}$ and $\bar{y}$ are the means of the vectors $\mathbf{x}$ and $\mathbf{y}$, respectively.
+- $\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})$ is related to the [Covariance](Covariance.md) of $\vec{x}$ and $\vec{y}$.
+- $\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2}$ is related to the **standard deviation** of $\vec{x}$ and $\vec{y}$
 
 > [!info] Pearson's correlation is related to cosine similarity
 > The Pearson's correlation can be considered as the cosine of the angle between the two vectors centered around the mean.
 > 
-> To calculate the cosine of the angle between two vectors $\mathbf{A}$ and $\mathbf{B}$, you use the **dot product** formula. Specifically, the cosine of the angle $\theta$ between the two vectors is given by:
+> To calculate the cosine of the angle between two vectors $\mathbf{A}$ and $\mathbf{B}$, you use the [dot product](Inner%20and%20Outer%20Product.md#Inner%20product) formula. Specifically, the cosine of the angle $\theta$ between the two vectors is given by:
 > 
 > $$
 > \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
 > $$
-> , where the top is the dot product between $\mathbf{A}$ and $\mathbf{B}$. The bottom is the Euclidean norm of $\mathbf{A}$ and $\mathbf{B}$.
+> , where the top is the [dot product](Inner%20and%20Outer%20Product.md#Inner%20product) between $\mathbf{A}$ and $\mathbf{B}$. The bottom is the [Euclidean norm](Euclidean%20Norm.md) of $\mathbf{A}$ and $\mathbf{B}$.
 > 
 > This is also called the **cosine similarity**. When two vectors are perfectly aligned (angle=0), cosine similarity = 1; when the vectors are orthogonal, the cosine similarity is 0; when they are inversely proportional, the cosine similarity is -1.
-> The cosine similarity measures the similarity in **direction**. By subtracting the mean from the values, Pearson correlation measures **linearity** between the two vectors.
- 
+> 
+> The cosine similarity of $\vec{x}$ and $\vec{y}$ measures the similarity in **direction**. By subtracting the mean from the values, $x-\bar{x}$ and $y-\bar{y}$ become linearly dependent. Pearson correlation measures **linearity** between the two vectors.
+> 
+> [Source](https://few.vu.nl/~molenaar/courses/Math/chapters/07_orthogonality.html#independence-norm-and-orthogonality)
+
+^2d5a55
+
+> [!info] Centering and scaling
+> Following the previous [note](#^4c49aa), $\frac{\sum_{i=1}^{n} (x_i - \bar{x})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2}}$ may also be viewed as scaling the centered vector by its length.
+
 ## Interpretation
 
 1. **Value Range**: The Pearson correlation coefficient $r$ ranges from -1 to 1.

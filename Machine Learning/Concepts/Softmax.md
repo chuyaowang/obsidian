@@ -2,8 +2,7 @@
 
 The softmax function is a mathematical function that converts a vector of real numbers into a **probability distribution**. It is commonly used in machine learning, especially in the context of multiclass classification problems, to represent the probabilities of different classes.
 
-## Softmax Function
-### Definition
+## Definition
 
 Given a vector $\mathbf{z} = [z_1, z_2, \ldots, z_n]$, the softmax function $\sigma(\mathbf{z})$ is defined as:
 
@@ -11,7 +10,7 @@ $\sigma(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}$
 
 for $i = 1, 2, \ldots, n$.
 
-### Properties
+## Properties
 
 1. **Probability Distribution**: The output of the softmax function is a vector of probabilities that sum to 1.
    
@@ -20,7 +19,7 @@ for $i = 1, 2, \ldots, n$.
 2. **Exponentiation**: The function uses the exponential function, which ensures that all output values are positive.
 3. **Normalization**: Each exponentiated value is divided by the sum of all exponentiated values, normalizing the outputs to sum to 1.
 
-### Example
+## Example
 
 Consider a vector $\mathbf{z} = [1.0, 2.0, 3.0]$. To compute the softmax of this vector:
 
@@ -38,26 +37,25 @@ Consider a vector $\mathbf{z} = [1.0, 2.0, 3.0]$. To compute the softmax of this
 
 So, the softmax output is $\mathbf{\sigma(z)} = [0.0900, 0.2447, 0.6652]$.
 
-### Applications
+## Applications
 
-1. **Multiclass Classification**: In neural networks, especially in the final layer of a classification model, softmax is used to convert the logits (raw output values) into probabilities for each class.
+1. **Multiclass Classification**: In neural networks, especially in the final layer of a [Multiple classification](1.%20VU%20DL%20Introduction.md#Multiple%20classification), softmax is used to convert the logits (raw output values) into probabilities for each class.
 2. **Probability Distribution Modeling**: It is used in various probabilistic models where it is necessary to convert a set of scores into a probability distribution.
 
-### Advantages
+## Advantages
 
 - **Interpretable Output**: The output probabilities are easy to interpret and can be directly used for decision-making.
 - **Differentiability**: The softmax function is differentiable, which makes it suitable for optimization algorithms like gradient descent.
 
-### Derivative
+## Derivative
 
 The derivative of the softmax function is often used in the backpropagation algorithm for training neural networks. For a vector $\mathbf{z}$, the derivative with respect to its inputs is:
-
 
 $\frac{\partial \sigma(z_i)}{\partial z_j} = \sigma(z_i) (\delta_{ij} - \sigma(z_j))$
 
 where $\delta_{ij}$ is the [Kronecker Delta](Kronecker%20Delta.md), which is 1 if $i = j$ and 0 otherwise.
 
-### Computational Stability
+## Computational Stability
 
 In practice, to improve numerical stability, the softmax function is often implemented using the following equivalent formulation:
 
@@ -83,35 +81,12 @@ Intuitively, the softmax function performs a kind of "squashing" operation that 
 - **Relative Importance**: The original vector might represent some form of raw, unbounded scores indicating the relative importance or likelihood of different classes or outcomes. By exponentiating these scores, we are effectively translating them into a scale where the differences become more pronounced.
   
 - **Normalization**: Once we have these pronounced differences, normalizing them ensures that they can be interpreted as probabilities. Probabilities inherently need to sum to one, providing a meaningful way to compare the relative likelihoods of different outcomes.
-
-### Example to Illustrate
-
-Consider a simple example where we have scores from a classification model: $[2.0, 1.0, 0.1]$.
-
-1. **Exponentiation**:
-   - $e^{2.0} \approx 7.39$
-   - $e^{1.0} \approx 2.72$
-   - $e^{0.1} \approx 1.11$
-
-2. **Sum of Exponentials**:
-   - Sum $\approx 7.39 + 2.72 + 1.11 = 11.22$
-
-3. **Normalization**:
-   - Probability for the first element: $\frac{7.39}{11.22} \approx 0.66$
-   - Probability for the second element: $\frac{2.72}{11.22} \approx 0.24$
-   - Probability for the third element: $\frac{1.11}{11.22} \approx 0.10$
-
-This transforms the original scores into a probability distribution $[0.66, 0.24, 0.10]$, which is easy to interpret: the first class is the most likely, the second is less likely, and the third is the least likely.
-
+- 
 ### Why Use Softmax Instead of Other Functions?
 
-- **Exponentiation and Differentiation**: The exponential function’s properties ensure that even small differences in scores become significant after exponentiation, which is crucial for distinguishing between classes. Moreover, the softmax function is differentiable, allowing it to be used effectively in gradient-based optimization methods common in neural networks.
+- **Exponentiation and Differentiation**: The exponential function’s properties ensure that even _small differences in scores become significant after exponentiation_, which is crucial for distinguishing between classes. Moreover, the softmax function is differentiable, allowing it to be used effectively in gradient-based optimization methods common in neural networks.
   
 - **Handling Logits**: Raw scores (logits) can be negative, zero, or positive, and their scale can vary. The softmax function handles this by converting any range of input values into a well-defined probability distribution.
-
-### Summary
-
-The softmax function turns a vector of arbitrary real numbers into a vector of probabilities by emphasizing differences between the numbers and normalizing them to sum to one. This transformation makes sense because it leverages the properties of exponentiation to highlight relative importance and ensures a meaningful probabilistic interpretation through normalization.
 
 ## Temperature
 
@@ -130,12 +105,12 @@ $\sigma_T(z_i) = \frac{e^{z_i / T}}{\sum_{j=1}^{n} e^{z_j / T}}$
 ### Effects of the Temperature Parameter
 
 1. **High Temperature ( $T > 1$)**:
-   - When the temperature $T$is greater than 1, the softmax function produces a smoother, more uniform probability distribution. This means that the differences between the probabilities of different outcomes are reduced, making the distribution more "soft".
-   - For example, if $T$is very high, the softmax function approaches a uniform distribution where all probabilities are almost equal.
+   - When the temperature $T$ is greater than 1, the softmax function produces a smoother, more uniform probability distribution. This means that the differences between the probabilities of different outcomes are reduced, making the distribution more "soft".
+   - For example, if $T$ is very high, the softmax function approaches a uniform distribution where all probabilities are almost equal.
 
 2. **Low Temperature ( $0 < T < 1$)**:
-   - When the temperature $T$is less than 1, the softmax function produces a sharper, more peaked probability distribution. This means that the differences between the probabilities of different outcomes are accentuated, making the distribution more "hard".
-   - For example, if $T$is very low, the softmax function approaches a one-hot encoding where the highest value dominates the probability distribution, and other values have probabilities close to zero.
+   - When the temperature $T$ is less than 1, the softmax function produces a sharper, more peaked probability distribution. This means that the differences between the probabilities of different outcomes are accentuated, making the distribution more "hard".
+   - For example, if $T$ is very low, the softmax function approaches a one-hot encoding where the highest value dominates the probability distribution, and other values have probabilities close to zero.
 
 ### Why Use Temperature?
 
@@ -164,3 +139,37 @@ Consider the vector $\mathbf{z} = [1.0, 2.0, 3.0]$:
 As seen, with $T = 2$, the probabilities are more uniform, while with $T = 0.5$, the probabilities are more skewed towards the highest value.
 
 In summary, the temperature parameter in the softmax function is a powerful tool to control the spread of the resulting probability distribution, allowing it to be adjusted from very smooth to very sharp depending on the application requirements.
+
+## Derivative of softmax
+
+[Derivative of softmax and cross entropy 1](https://towardsdatascience.com/derivative-of-the-softmax-function-and-the-categorical-cross-entropy-loss-ffceefc081d1)
+[Derivative of softmax and cross entropy 2](https://levelup.gitconnected.com/killer-combo-softmax-and-cross-entropy-5907442f60ba)
+
+[YouTube step by step](https://www.youtube.com/watch?v=M59JElEPgIg)
+$$
+\begin{aligned}
+\frac{\partial y_i}{\partial o_j} &= \frac{\partial\frac{\exp{o_i}}{\sum_j\exp{o_j}}}{\partial o_j}\\
+&=\frac{\frac{\partial}{\partial o_j}\exp{o_i}\sum_j{\exp{o_j}}-\exp{o_i}\frac{\partial}{\partial o_j}\sum_j{\exp{o_j}}}{(\sum_j{\exp{o_j}})^2}
+\end{aligned}
+$$when $i=j$:$$
+\begin{aligned}
+\frac{\partial y_i}{\partial o_j} &= \frac{\exp{o_i}\sum_j{\exp{o_j}}-\exp{o_i}\exp{o_j}}{(\sum_j{\exp{o_j}})^2}\\
+&=\frac{\exp{o_i}(\sum_j{\exp{o_j}}-\exp{o_j})}{(\sum_j{\exp{o_j}})^2}\\
+&=\frac{\exp{o_i}}{\sum_j{\exp{o_j}}}\cdot\frac{\sum_j{\exp{o_j}}-\exp{o_j}}{\sum_j{\exp{o_j}}}\\
+&=y_i(1-y_j)
+\end{aligned}
+$$when $i\neq j$:$$
+\begin{aligned}
+\frac{\partial y_i}{\partial o_j} &= \frac{0\cdot\sum_j{\exp{o_j}}-\exp{o_i}\exp{o_j}}{(\sum_j{\exp{o_j}})^2}\\
+&=\frac{\exp{o_i}}{\sum_j{\exp{o_j}}}\cdot\frac{-\exp{o_j}}{\sum_j{\exp{o_j}}}\\
+&=-y_iy_j
+\end{aligned}
+$$ or $$
+\frac{\partial y_i}{\partial o_j} = y_i(\delta_{ij}-y_j)
+$$, where $\delta_{ij}$ is the Kronecker delta function which is 1 when $i=j$ and 0 otherwise.
+
+## Log-sum-exp trick
+
+[Explanation](https://gregorygundersen.com/blog/2020/02/09/log-sum-exp/)
+
+Instead of the original definition, compute `exp(x-logsumexp(x))`, which is equivalent to softmax but more numerically stable.

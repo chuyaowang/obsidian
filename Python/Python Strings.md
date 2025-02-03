@@ -49,3 +49,17 @@ Use the keyword `in`
 ```
 
 [More info](https://realpython.com/python-string-contains-substring/)
+
+## Reverse a string
+
+``` python
+'hello world'[::-1]
+```
+
+Slice notation takes the form `[start:stop:step]`. In this case, we omit the `start` and `stop` positions since we want the whole string. We also use `step = -1`, which means, "repeatedly step from right to left by 1 character".
+
+For unicode characters like emojis
+
+``` python
+reversed_string = "".join(list(grapheme.graphemes(input_string))[::-1])
+```

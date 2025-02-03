@@ -12,6 +12,10 @@ Install via [homebrew](homebrew.md):
 > brew install homebrew/cask/basictex
 ^912efa
 
+## Update tlmgr
+
+`sudo tlmgr update --self --all`
+
 ## Package manager
 
 `tlmgr`
@@ -23,6 +27,8 @@ Install latexmk: `sudo tlmgr install latexmk`
 > 
 > latexmk requires Perl, and MacOS already has Perl installed.
 > Enter `Perl -v` in the terminal to find out.
+
+Install framed `sudo tlmgr install framed`
 
 ## LaTeX Workshop
 
