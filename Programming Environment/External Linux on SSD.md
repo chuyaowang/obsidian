@@ -19,7 +19,6 @@ Restart to enter the Ubuntu menu
 
 Choose Ubuntu (Safe Graphics)
 Follow the instructions
-- Don
 Choose `Manual Partition`
 - In **most** cases, the internal HD will show up as `sda` and the external as `sdb`, but this is not guaranteed.
 - `ESP Partition`: `VFAT`，500 MB

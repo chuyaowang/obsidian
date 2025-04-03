@@ -91,3 +91,9 @@ jupyter lab --port=8080 --no-browser
 ## auto-complete
 
 https://ericmjl.github.io/data-science-bootstrap-notes/turbocharge-jupyter-lab-using-language-servers/
+
+## find running jupyter lab sessions
+
+```bash
+jupyer lab list
+```

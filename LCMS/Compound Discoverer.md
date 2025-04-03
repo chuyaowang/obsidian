@@ -246,10 +246,11 @@
 
 > 参照以下示例记录对本 SOP 所做的修订，包括每次修订的日期，并简要说明修订内容。
 
-| Date       | Person      | Detail       |
-| ---------- | ----------- | ------------ |
-| 2023-07-11 | Chuyao Wang | First draft. |
-| 2023-07-17 | Chuyao Wang | Added the *Reprocess the result* section.|
+| Date       | Person      | Detail                                    |
+| ---------- | ----------- | ----------------------------------------- |
+| 2023-07-11 | Chuyao Wang | First draft.                              |
+| 2023-07-17 | Chuyao Wang | Added the *Reprocess the result* section. |
+|            |             |                                           |
 
 ## Note<br>注意事项
 

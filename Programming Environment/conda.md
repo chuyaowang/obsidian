@@ -107,3 +107,8 @@ conda-build r-fansi
 
 https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-pkgs.html#converting-a-package-for-use-on-all-platforms
 
+## .condarc
+
+- add or remove channels
+- located at `~`
+- `conda config --show channels` to show all channels

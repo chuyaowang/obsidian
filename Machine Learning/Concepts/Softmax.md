@@ -6,7 +6,7 @@ The softmax function is a mathematical function that converts a vector of real n
 
 Given a vector $\mathbf{z} = [z_1, z_2, \ldots, z_n]$, the softmax function $\sigma(\mathbf{z})$ is defined as:
 
-$\sigma(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}$
+$$\sigma(z_i) = \frac{e^{z_i}}{\sum_{j=1}^{n} e^{z_j}}$$
 
 for $i = 1, 2, \ldots, n$.
 
@@ -71,14 +71,14 @@ Intuitively, the softmax function performs a kind of "squashing" operation that 
 ### Intuitive Explanation
 
 1. **Exponential Emphasis**:
-   - **Highlighting Differences**: By applying the exponential function to each element, the softmax function accentuates the differences between values. Higher values become much larger after exponentiation, while smaller values become comparatively smaller. This emphasizes the relative importance of higher scores.
+   - **Highlighting Differences**: By applying the exponential function to each element, the softmax function accentuates the differences between values. Higher values become much larger after exponentiation, while smaller values become comparatively smaller. This emphasizes the _relative importance_ of higher scores.
    
 2. **Normalization**:
    - **Sum to One**: The sum of these exponentiated values is computed, and each exponentiated value is then divided by this sum. This ensures that the resulting values form a probability distribution (i.e., they are non-negative and sum to 1).
 
 ### Why It Makes Sense
 
-- **Relative Importance**: The original vector might represent some form of raw, unbounded scores indicating the relative importance or likelihood of different classes or outcomes. By exponentiating these scores, we are effectively translating them into a scale where the differences become more pronounced.
+- **Relative Importance**: The original vector might represent some form of raw, unbounded scores indicating the relative importance or likelihood of different classes or outcomes. By exponentiating these scores, we are effectively translating them into a scale where the _differences become more pronounced_.
   
 - **Normalization**: Once we have these pronounced differences, normalizing them ensures that they can be interpreted as probabilities. Probabilities inherently need to sum to one, providing a meaningful way to compare the relative likelihoods of different outcomes.
 - 
