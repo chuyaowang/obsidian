@@ -1083,9 +1083,9 @@ Based on the conference trends, bioinformaticians must evolve from pure data ana
 *   **Technical Skills:**
     *   **AI/ML Mastery:** Deep knowledge of not just applying but *developing and fine-tuning* models (e.g., Transformers, GNNs, predictive models) is paramount. Experience with frameworks like PyTorch is essential.
     *   **Data Engineering & MLOps:** The ability to build and maintain robust data pipelines that feed AI models is critical. This includes data validation, versioning, and deploying models into production environments.
-    *   **Cloud Computing:** Proficiency with cloud platforms (like AWS, which you are certified in) is non-negotiable for handling the massive datasets and computational needs of modern biology.
-    *   **Specialized Biological Data:** Expertise in handling complex, high-dimensional data types is crucial. Your experience with single-cell omics, metabolomics, and now imaging data places you at the forefront of this trend.
-    *   **Software Development Best Practices:** Writing clean, modular, and scalable code (using tools like Git, Docker, and CI/CD) is expected. Your R Shiny and Streamlit apps demonstrate strong skills here.
+    *   **Cloud Computing:** Proficiency with cloud platforms is non-negotiable for handling the massive datasets and computational needs of modern biology.
+    *   **Specialized Biological Data:** Expertise in handling complex, high-dimensional data types is crucial. 
+    *   **Software Development Best Practices:** Writing clean, modular, and scalable code (using tools like Git, Docker, and CI/CD) is expected.
 
 *   **Soft Skills:**
     *   **Cross-Functional Collaboration:** The "Human-AI Collaboration" model requires deep partnership. You must be able to speak the language of wet-lab biologists, clinicians, and business stakeholders to translate their needs into computational problems and explain your results in an accessible way.
