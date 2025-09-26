@@ -1,0 +1,165 @@
+\section{final report draft}\label{final-report-draft}
+
+\subsection{Methods}\label{methods}
+
+\subsubsection{Fluorescence Time-Lapse
+Imaging}\label{fluorescence-time-lapse-imaging}
+
+Strain YET911 was tagged with mScarlet (RFP) at the GAL1 locus. Two
+pre-cultures---one in 2\% glucose and one in 2\% raffinose---were
+transferred to agarose pads containing 0.2\% galactose. The RFP channel
+and GFP (background fluorescence control) were imaged every 15 minutes.
+Cells are segmented from the resulting images and tracked across frames.
+The centroids and mean and standard deviation of fluorescence
+intensities were calculated for the identified cells. For analysis, each
+transition was aligned at time 0 and truncated to 210 minutes
+(glucose→galactose) or 225 minutes (raffinose→galactose) to ensure equal
+duration.
+
+\subsubsection{Automated Colony Detection and
+Tracking}\label{automated-colony-detection-and-tracking}
+
+Scatter plots were made using the provided cell centroids (x, y) and
+areas. OpenCV's contour detection algorithm was applied to identify
+globs formed by overlapping circles. Starting colonies were identified
+in the first frame. After identifying each colony in the first frame and
+calculating its centroid, new cells in subsequent frames were assigned
+to colonies by minimizing Euclidean distance to existing centroids.
+
+\subsection{Results}\label{results}
+
+\subsubsection{Slower GAL1 Induction Following Glucose
+Pre-Culture}\label{slower-gal1-induction-following-glucose-pre-culture}
+
+Figure X1: Time courses of (A) total cell area, (B) total RFP intensity,
+and (C) cell number following a shift from glucose (blue) or raffinose
+(red) to galactose.
+
+Figure Supp X1: Correlation of single-cell size and RFP intensity.
+Scatter plot of individual cell area versus RFP fluorescence under
+raffinose→galactose (A) and glucose→galactose (B) shifts at frame 0.
+
+Figure Supp X2: GFP fluorescence controls. (A,B) Total GFP intensity
+over time for raffinose→galactose (left) and glucose→galactose (right).
+(C,D) Single-cell GFP traces for the two transitions.
+
+Cells pre-cultured in glucose exhibited a significantly longer plateau
+before increasing total area, RFP fluorescence, and cell number, whereas
+cells pre-cultured in raffinose began expanding with minimal delay
+(Figure X1). Furthermore, although both conditions started with similar
+metrics, cells transferring from raffinose yielded more than triple the
+total RFP signal than the cells transferring from glucose, despite only
+modest increases in area (\textless20\%) and cell count (\textless{}
+40\%). This indicates that elevated RFP arises from stronger GAL1
+activation and not merely from higher cells numbers. As cell area and
+RFP intensity are uncorrelated (Figure Supp X1), greater cell area can
+be ruled out the the cause of fluorescence increase. The GFP
+fluorescence of raffinose pre-culture was about 20\% higher than that of
+glucose pre-culture, likely reflecting its greater cell area and number
+(Figure Supp X2A-B).
+
+\subsubsection{Single-Cell Dynamics Reveal Division Patterns and
+Induction
+Delay}\label{single-cell-dynamics-reveal-division-patterns-and-induction-delay}
+
+Figure X2: Single-cell measurements over time for glucose→galactose
+(left) and raffinose→galactose (right): (A, B) cell area traces; (C, D)
+RFP intensity traces.
+
+Figure Supp X3. Frequency analysis of cell-division cycles. Power
+spectra from Fourier transforms of single-cell area time series in (A)
+raffinose→galactose and (B) glucose→galactose transitions.
+
+Single cell area traces show upper size limits that are revisited
+periodically by the cells, likely indicative of cell division cycles
+(Figure X2A-B). Fourier transforms of the single cell traces reveal
+higher frequency oscillations in the raffinose pre-culture condition
+(Figure Supp X3), indicating faster cell cycles that lead to its greater
+cell number (Figure X1C). Notably, glucose-pre-cultured cells maintained
+a larger mean size reflecting faster initial growth rate on glucose
+compared with raffinose.
+
+Single cell RFP traces reveal a induction delay in glucose-pre-cultured
+cells of about 60 minutes demonstrating catabolite repression, while
+almost no delay was observed in the raffinose-pre-cultured cells (Figure
+X2C-D). In contrast, GFP remained approximately constant across both
+conditions with minor fluctuations, confirming that observed RFP changes
+are specific to GAL1 activation (Figure Supp X2C-D).
+
+\subsubsection{Increased Intra- and Inter-Cellular Variability with GAL1
+Activation}\label{increased-intra--and-inter-cellular-variability-with-gal1-activation}
+
+Figure X3: Scatter of single-cell RFP standard deviation versus mean for
+raffinose→galactose (left) and glucose→galactose (right). Color gradient
+indicates cell area.
+
+In both transitions, higher mean RFP correlates with increased standard
+deviation, reflecting more uneven distribution of fluorescence signals
+within the cells (Figure X3). However, it should be noted that in
+smaller cells sub-cellular heterogeneity cannot be resolved due to
+resolution limits. Across the population, RFP standard deviation also
+broadens with the mean intensity. This inter-cellular heterogeneity is
+the result of accumulating stochasticity as more GAL1 gene is expressed
+(Figure X3).
+
+\subsubsection{Colony-Level Response
+Trajectories}\label{colony-level-response-trajectories}
+
+\begin{quote}
+Time series clustering still needs to be done for this part, will lead
+to more figures and interpretations.
+\end{quote}
+
+Figure X4: Colony-level RFP over time for raffinose→galactose (left) and
+glucose→galactose (right). (A,B) average per-cell RFP; (C,D) total RFP.
+Color denotes the corresponding metric at time 0.
+
+Figure X5: Colony-level cell area over time for raffinose→galactose
+(left) and glucose→galactose (right). (A,B) average per-cell RFP; (C,D)
+total RFP. Color denotes the corresponding metric at time 0.
+
+Figure Supp X4: Colony cell-number trajectories. Total cell count versus
+time for each colony under (A) raffinose→galactose and (B)
+glucose→galactose transitions. Line color reflects the cell count at
+time 0.
+
+Colony identification found 60 raffinose pre-culture colonies and 53
+glucose pre-culture colonies at time 0. In raffinose, colonies showed
+uniform average RFP induction, while in glucose, two clusters of
+trajectories were observed between the colonies, reflecting bet-hedging
+(Figure X4A--B). Furthermore, the delayed induction observed in Figure
+X2D was not randomly distributed in cells but coordinated within the
+colonies.
+
+High initial average RFP did not predict final average levels, since
+those early high values often arose from single-cell colonies. In
+contrast, colonies with high initial total RFP remained at the top,
+reflecting that larger colony size produces consistently greater
+fluorescence (Figure X4C--D; Supp X4).
+
+Similar trends were observed in cell area: average area rankings shifted
+at the end due to single-cell colonies, but total colony area rankings
+remained consistent (Figure X5). A slight declining trend were found in
+both the average area over time plots. Since the total cell number
+increases over time for the colonies (Figure Supp X4), it reveals that
+bacteria increase their colony size by producing more but smaller cells
+rather than fewer larger cells.
+
+\subsubsection{Division Partitioning Unaffected by Catabolite
+Repression}\label{division-partitioning-unaffected-by-catabolite-repression}
+
+\begin{quote}
+can do a t test for this to be more robust
+\end{quote}
+
+Figure X6: Mean RFP fluorescence over time for (A, B) daughter and (C,
+D) mother cells, and (E, F) daughter/mother ratio under
+raffinose→galactose (left) and glucose→galactose (right) transitions.
+
+For each frame, daughter cells were defined as cells that newly
+appearing cells, and the remaining cells were defined as mother cells.
+Both mother and daughter RFP intensities rose over time (Figure X6A--D).
+However, the daughter/mother fluorescence ratio remained stable and
+comparable across both transitions (Figure X6E--F), indicating that
+partitioning mechanisms operate independently of pre-culture conditions,
+cell size, division rate, and induction dynamics.

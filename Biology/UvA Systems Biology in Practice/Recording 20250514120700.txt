@@ -1,0 +1,731 @@
+Let's start setting the scene of fermentation.
+Basically, if you look at fermentation,
+the major amount of fermented product and ingredients
+that you find in the world are made either
+by bacterial fermentation.
+And those are usually bacteria that
+lead to acidification of a product, like in a dairy
+product, or you have yogurt or cheese
+that has been made as a result of lactic acid
+bacteria in the fermentation.
+Also in sausage, you have lactic acid being formed,
+just to increase shelf life of all these terrible food
+products.
+And another type of fermentation is where you use yeast,
+and that is to produce alcohol, which also
+leads to longer shelf life of perishable materials.
+But it also leads to formation of gas, CO2,
+and that's part of the bread-making process, where
+also yeast are used, but then the alcohol is not there.
+That is the CO2, which leads to the more fluffy structure
+of the product.
+So those are the typical examples.
+And there are many, many different products
+around that are all used.
+This is basically the principle of the fermentation.
+So this is what it looks like.
+If you put it on a simple scheme,
+you have a microorganism that converts sugar rapidly,
+either in organic acids, that can be lactic acid.
+That's for all these dairy products, very relevant,
+but can also be things like propionic acid or acetic acid.
+For instance, in vinegar, that's also a fermentation process.
+But then you get lactic acid, but acetic acid
+has the acid being formed.
+And then you have other types of fermentation
+leading to ethanol production.
+But all sugar is the basis.
+Organism needs energy to grow.
+But in the meantime, it excretes all these components,
+which play a major role in these food products.
+So now, if you look at some of the benefits
+of these food fermentations, there's
+actually more happening than only production
+of these primary products, like organic acids and ethanol.
+They contribute to a preservation.
+But there's also other things happening,
+like usually in most of the food stuffs that you ferment,
+there's also protein, almost always there's some protein.
+Protein is then idolized by this microorganism.
+They need also amino acids to be taken up.
+But during this process of amino acid production
+and also conversion, many things happen
+like they convert it into vitamins,
+or they make flavors out of these components.
+In some cases, they, besides these organic acids and ethanol,
+they may offer very specific antimicrobials
+that inhibit their competitors in this food stuff.
+And then you will see also in one of my examples
+where an organism is using components during fermentation
+and make oils out of it for a very long chain of fatty acids.
+These are all different type of activities
+that happen with different type of organisms involved
+in these processes.
+And that gives some additional benefits
+to this whole process of food fermentation.
+That makes it very valuable.
+And that's also how very interesting industrial processes
+can be developed based on all these natural processes
+taking place in these organisms.
+So what I will do, because this is a broad field,
+so many things that you can cover,
+I've taken a few examples out where
+some kind of modeling exercise has been used, basically,
+to support development or improve the production process.
+And one is about a different growth aspect of one
+very commonly used lactic acid bacteria,
+as we talked about in the program.
+I have a more specific example about a flavor product
+that is being formed also by one type of lactic acid bacteria.
+And then I will go into this topic of oil production.
+So that's the company that I work for now.
+And also, we want to increase production of oils
+by this yeast.
+And then I will have, at the end,
+I briefly will cover also a type of modeling
+that we are involved with.
+It's about business.
+It's about how do you get your best business
+case out of the process, also involving a model.
+And I just want to repeat what Felipe was saying.
+So if you are losing me or you have a very, well,
+I'm not even an urgent question.
+Any question, please don't hesitate to interrupt.
+Makes it more likely for everybody.
+OK, so I go now into this first topic.
+This is about growth.
+And actually, there's also a preservation site info.
+Preservation.
+This is about a lactic acid bacteria
+called narco-bacillus montanum.
+And this is an organism growing on all kinds of foodstuffs.
+You find them everywhere.
+And it's also used in many beneficial fermentations
+like sauerkraut, in olives, lots of other ones
+where this organism is being used.
+And nowadays, also used more and more
+as a sort of natural preservative
+against this happening, which I'm sure also happens
+with most of you at home in your refrigerator.
+This is sort of the surface of a piece of bread.
+And you also see this similar thing happening
+where you have fresh strawberries at home in the summertime.
+And they are contaminated by fungi.
+Fungi are a major problem in the food industry.
+They are relatively difficult to control.
+But there are some natural ways of controlling it
+because there are microorganisms like this lactic acid bacteria
+that produce compounds that are specifically targeting fungi.
+We use that as a natural process
+instead of adding all kind of chemicals to your foods,
+which most of us probably don't like.
+We don't like to read that on the labels.
+The idea to consume that is also not so nice,
+but if you were to have a natural way of doing that,
+there's a big preference for everybody.
+I will discuss an example of how we use the modeling tools
+to improve a fermentation process,
+which did not grow, which did not work optimally in our hands.
+This was from a graduate student
+from the Mappanine University in Research, Mark Stevens.
+And he was working with Mark and Mrs. Mappanine.
+And this was done in a quite undefined broth,
+very complex medium.
+These organisms use all kinds of nutrients and minerals to be able to grow.
+And this was just a regular growth,
+but the worst problem, which happened basically every time.
+There was a growth delay.
+It was consistent with growth delay.
+And it calls, especially if you're working with such an undefined medium
+with all these components.
+It's difficult to just pinpoint it to one factor that is causing this.
+This is what it looked like.
+So you have a growth curve.
+In this case, it was, I think, in a shape.
+Now it's probably in a reactor where there was some steering going on.
+It was sort of aerobic.
+But these are fermented organisms.
+They actually don't need oxygen, but they are quite oxygen-borne.
+But in this case, there was consistently this delay.
+And this has been a growth curve.
+You want this to go more or less exponentially.
+In this case, you saw that there was a delay happening here.
+And then after a while, it restored again.
+So there was some kind of repair mechanism in this organism
+leading back to normal growth.
+And if you calculate for every phase of this growth,
+the growth rate, then you see an increase of growth rate,
+but then a complete drop.
+Then it restores again until it is more or less fixed.
+So the idea of this study that he was involved in,
+and that's where modeling also comes along,
+is to find out what's happening.
+So in this case, he took different samples
+before the delay, right after the delay, during the delay,
+and see if he could analyze why this organism had these problems.
+And what he used was basically transcatomics problems.
+So he was looking at basically the different genes
+that were described under these different conditions,
+and hopefully that would lead to some kind of indication
+of what was going on in this organism,
+especially around that period.
+So one of the ideas that already was happening
+even before this analysis was done,
+because this was sort of an aerobic process
+that was shaking going on,
+there was actually even air being flushed through this culture,
+it was an idea that maybe that played a role in this whole incident.
+So there was already an assumption that something might be flushed out of the medium
+because of this continuous aeration of the culture.
+And this is already, this is a study from about 20 years ago,
+or something like that,
+but there was then at that time one of the first metabolic models of organisms.
+So that's a model which is based on all the genes
+that were identified from the genome sequences.
+Also one of the first organisms actually that was for the complete genome sequence.
+And this led to these type of models
+where you can see basically a connection of all the metabolites
+that are impossibly formed as a result of genes that are being present.
+So this is all assumption based on all these genes that are present,
+at least with this kind of network.
+And there are of course connections to the network,
+and this connection on different enzymes involved,
+enzymes are all produced as a result of genes being present.
+So what you can do with a model like that
+is then look at the presence of messenger RNA in this case.
+So let's see if it is more or less transcribed
+as a result of a certain condition.
+And then you do that, in this case we compare
+right before the onset of the growth delay
+and then when it was restored again.
+We compared transcription levels of genes.
+And then you can have them cover code
+and you can say everything that is up-regulated in process in step two
+is red and everything that is not is yellow in this case.
+And then you can see that that makes any sense.
+And then the codes here are basically
+some of you might recognize these are typical enzymes in the glycolysis,
+enolase, and you have lactate dehydrogenase
+and you have pyruvate dehydrogenase
+and a few others that are part of the whole metabolism of this organism.
+So what we observed in this case
+was that all the genes that were up-regulated
+were coding for enzymes that are all producing CO2.
+So they lead to some kind of decarboxylation reaction.
+Pyruvate dehydrogenase goes from a C3 to a C2
+and that's where CO2 is released.
+And so there are several of these other enzymes
+that are all leading to a decarboxylation,
+so a release of CO2.
+And that was, of course, extremely interesting
+because then you can already start speculating.
+So we see here, indeed, these enzymes here, pyruvate dehydrogenase,
+pyruvate oxidase, malic enzyme,
+they all result in a release of CO2.
+And we also have CO2-consuming enzymes
+that actually lead, that were inhibited.
+Yes?
+And when you say they are up-regulated,
+are they up-regulated, absolutely,
+compared to the four of them?
+So we have this P2 phase and a P1 phase.
+P2 is where growth is restored.
+P1 is just before it's on the moment that it starts to be inhibited.
+And P2, so in this case, the red is everything that is higher
+or up-regulated in this P2.
+And then we also see in yellow is the ones that are down-regulated
+in P2 versus P1.
+So in this case, enzymes that are actually consuming CO2
+are down-regulated.
+So there's even a higher indication
+that CO2 is some kind of important role in this process.
+Yes?
+In your respect, you said how to sample during the delay
+instead of just before and after?
+Yes, that's in hindsight.
+Yes, of course, you will.
+We were already happy to be able to do that,
+but that wasn't sort of in the primitive days of 20 years ago.
+And nowadays, you would probably take much more samples than that.
+But this is also to make the story a little bit simple,
+as simple as possible.
+But true, if you would do this again
+or you want to be sure about your process,
+you would take much more samples.
+And nowadays, you can, of course,
+process much more data than we did before.
+So you're completely right.
+So this is the hypothesis then that we need
+by doing this fermentation on the aerobic condition
+where we actually flush, in this case, air through the culture
+that we flush out something, in this case, CO2,
+leading to a growth arrest.
+And then the organism reacts to it
+by actually turning on some activities that produce CO2.
+So then the growth resumes,
+because CO2 is apparently an important factor
+to support growth in this organism.
+So then the prediction was,
+well, if we use basically the same setup,
+and we also flush our culture with gas,
+which also protects CO2,
+then we should prevent the growth.
+That's a relatively easy experiment to do.
+So that was done, and it was probably not,
+it was not optimized,
+but we added CO2 to the culture,
+to the gas that was used for aeration,
+and then we saw almost restoration of normal growth,
+and there was no more major delay.
+So that was a nice solution
+and also a simple illustration of how these modeling tools
+can actually help you in restoration of problems that you have.
+So we can see a redirection of metabolism
+for, so there is an internal supply of CO2,
+and this is basically solved by having a genome sequence,
+doing transcriptomics,
+and visualizing that on a metabolic model.
+So that's, let's say, one of the first examples,
+at least in my experience with these kind of systems,
+biology approaches to solve,
+in this case, a fermentation problem.
+So why am I showing you this,
+what is the relevance of this lactic acid bacteria,
+is that these bacteria are indeed producing not only lactic acid,
+because that's their major way of metabolism,
+but they also produce specific compounds that are now,
+that can be empty from also, they inhibit fungi.
+And nowadays, in food, all these chemicals are being used currently,
+like sulfide and different nitrogen compounds
+and sorbic acid and nitroic acid,
+all to avoid growth of fungi.
+And then we have these lactic acid bacteria,
+like lactobacillus bontarum,
+that have been identified to produce very specific components
+that have empty fungal activity,
+like certain peptides and also certain metabolites.
+And they are being used more and more now
+for natural protection of these food products.
+And I already told you about strawberries, fresh strawberries.
+Well, if you have fresh strawberries,
+you will see this happening within a day, normally.
+They are very sensitive to fungal contamination.
+And this is an experiment which I performed actually myself,
+where I actually covered some of these, or sprayed these strawberries
+with some of these lactic acid bacteria that produce,
+or are supposed to produce, antifungal compounds.
+And there we saw that, for instance, this one here,
+which we sprayed with a culture of fluid that lactobacillus bontarum,
+was very much more protected than this one or this one.
+So there is a clear difference and also actually works in practice.
+And these are the things that I was,
+and when I was doing this experiment,
+I was working for the Coca-Cola company.
+So they are more interested in using this also to protect their fruit juices,
+for instance.
+So we can add some product also from the Coca-Cola company,
+and that's a huge business for them.
+And they also suffer from this kind of contamination.
+And they prefer not to use massive amounts of chemicals,
+but they prefer to use some of these more natural compounds.
+But that is, let's say, the relevance of looking at fermentation of these organisms
+and how and why you want to be able to control that,
+and how, in this case, a modeling approach can help you.
+So that was my first example.
+So the second example is about the flavor components of Coca-Cola and diacetyl.
+Diacetyl is typically the butter kind of flavor.
+So you see that in butter milk and butter itself.
+The value of butter is actually determined by the amount of flavor that you have
+with the price of butter on the market is actually quite influenced
+by the amount of diacetyl in there.
+But it needs to be formed.
+And the best way to produce it is if you know how to produce it and if you can control it.
+So it's produced in a dairy fermentation, so it's from milk.
+And in milk, you have, of course, milk sugar that's being converted into lactic acid.
+But actually, there's also a more oxidized product in milk, which is called citric acid citrate.
+And we see that with this butter milk, but this butter flavor is actually produced
+as a result of this co-fermentation of this citric acid.
+We also know from, let's say, ages of experience that oxygen is needed
+for the production of diacetyl in these dairy products.
+We also know that the organism that is used for butter production
+and also for cheese production is the lactic acid material called black and copper salamis.
+And this is used all over the world as a culture to do fermentations of milk,
+producing these various dairy products.
+And there we know lactose is by far a major component for fermentation
+that is converted into lactic acid, as well as the acidification
+that happens as a result of presence of lactic acid bacteria.
+We also know that this more oxidized product is also converted by the same intermediate
+but then to diacetyl with flavor called copper.
+The difference is that in the case of lactose fermentation,
+you get this reducing in equivalents being formed in the H,
+and that has to be balanced so that it's oxidized again, and then you get lactic acid.
+In this case, when you do the conversion to pyruvate, there's no production of any of the H,
+so that means that there's no more reduction afterwards needed,
+and that is then going in the direction of diacetyl.
+That is how the acid goes formed, and now we will actually want to have more control of these proteins.
+Then you have to dive deeper into this organism, and then it becomes more complicated
+because this organism contains quite a lot of metabolic possibility.
+Lactic acid bacteria is known to do this.
+We were talking about this oxidized product. We know that this diacetyl is being formed,
+but we also know that under some conditions it can also produce ethanol, acetate,
+they can also, in the conversion of pyruvate, do diacetyl,
+also products like acetylene and acetyl lactate,
+this is a C5 compound, can be formed.
+That's the whole thing that you want to control.
+That's where all kinds of, you can do trial and error,
+try everything and see what happens, or you can do all of it.
+In those days, the idea was first to do trial and error,
+and that means that, well, let's take this lactic acid bacteria
+and let's take the co-version out, which is the major one, which is this one.
+Maybe we get much more of these interesting compounds being formed.
+That is, let's say, one of the first exercises,
+one of the first metabolic engineering strategies
+of working with these type of organisms.
+Knock out lactate dehydrogenase, so actually,
+lactic acid bacteria is not a lactic acid bacteria anymore,
+because it cannot produce lactic acid.
+One of the nice things was that this was completely viable,
+this organism grew a little bit less rapidly, but it was still doing well.
+We saw, as a result, almost what we wanted is that
+instead of producing this, it was producing that acetyl.
+Acetylated chemically is almost identical to diacetyl,
+but it has no plate, so that's not what you want, you want this.
+It turned out, actually, that diacetyl is not a direct metabolic problem.
+Diacetyl does actually result in a chemical oxidation of this.
+We found out that you need to get a lot of this
+and avoid that it goes into this direction,
+and then diacetyl will be formed automatically as long as oxygen is present.
+That's one of the assumptions, but it could be more complicated.
+We decided to build a metabolic model.
+In this case, it's a genetic model,
+so we tried to isolate all the reactions that are directly relevant
+and then insert all the enzyme activities and also their affinity for different substrates,
+so it became really a kinetic model with all the enzymatic equations,
+which was quite an exercise, because there are still a lot of steps involved,
+so there's a lot of mathematics involved.
+So this was then this genetic model that's for me, and I'm going to turn it off, sorry.
+I hope it doesn't happen again.
+Anyway, so with a metabolic model like this or a kinetic model,
+you can actually look then at how different steps in your total amount of reactions
+are influencing the final conversion into diacetyl.
+We were lucky to have different types of organisms,
+but then you can also actually predict what happens with a mutant,
+which does not have active dehydrogenase,
+and we also have mutants that have higher activity,
+in this case of NADH-oxidating activity and also coordination.
+Then you can look at the control of different steps on your production of diacetyl.
+What we saw is that indeed lactate dehydrogenase has quite a significant control,
+and we see that the enzyme involved in this production of this C5 compound
+as C2-lactate synthase has also a significant control,
+but we saw even higher control of this enzyme called NADH-oxidase.
+Yeah, go ahead.
+How do you read the table? What is it, like 0.9? What are these?
+Yeah, well these are...
+1.6, what does that mean?
+Basically, 0 has no control.
+Positive means that by increasing activity,
+you will influence positively the amount of diacetyl being produced.
+Negative means that if you increase the activity,
+it will actually have a negative effect.
+Is that one number? Is that a decimal point?
+Or are there two numbers?
+These aren't decimal points.
+But these are all relative numbers.
+But the higher the number is, the more control it has.
+Negative means negative control.
+And we were looking for something with a positive control,
+so we saw this as an option here, NADH-oxidase.
+And why did we see that? Because we knew that for diacetyl production,
+we need oxygen anyway because it needs to be oxidized from your intermediates.
+And we thought, well, apparently you have to take away this NADH
+as a reducing factor because NADH leads to production of lactic acid.
+And in this case, if you would oxidize it directly,
+you don't need to, for instance, knock out your lactic dehydrogenase.
+You can use... don't do this.
+That's what was shown here.
+So we actually constructed a strain.
+And we actually added another factor.
+We knocked out this enzyme here so that there's no more acetylin formed.
+We overexpressed this NADH-oxidase.
+And we saw, instead of this massive production of acetylin,
+we actually saw massive production of diacetyl, in this case, directly from sugar.
+Sugar is always abundantly available in all these products.
+So we had a process, instead of this minor component of citric acid,
+we converted to diacetyl.
+We now have a process where sugar was converted to diacetyl.
+So you could, in principle, make much more of this valuable flavor compound.
+So that is something that has been used now also in the food industry
+where they actually produce an ingredient which is high in diacetyl.
+And that can be added to all kinds of products.
+Not only butter, but also to cookies, where also buttery flavor is indeed a plus.
+So I have a question.
+Yes?
+When you do those kinds of models and you have to estimate the control condition,
+how do you go about the amount of constants you need to have
+to be able to get the results,
+actually knowing what the values of the equilibriums are,
+or the affinity compounds, how many in the different uses?
+The problem with these models is you have to do a lot of assumptions.
+Okay.
+Yeah.
+So, I mean, if you really want to determine exactly all these components,
+you would have to isolate all these constants from this organism, actually.
+And that's not always the case.
+Or in this case, it was not done.
+That means if you take some of these coefficients or data from the literature,
+so it will not be an exact...
+It worked.
+But in this case, it worked.
+But I can also imagine that in some cases it will not work.
+So now we go to the topic of microbial oils and fatty acids.
+So this is actually a company that I work for now.
+And this deals with this type of organism.
+This is a yeast, but it's not a baker's yeast.
+It's not a type of yeast.
+It's a yeast which actually you find everywhere,
+but it accumulates oil under a certain condition.
+This is actually a condition where it is happening.
+So you see these yeast, these are these oval shaped...
+They look like quite regular yeast.
+And there you have these globules of oil that are accumulated inside.
+And this happens under certain growth limitations.
+So actually the oil is a sort of a reserve component that it produced.
+But these organisms, which they can probably...
+They can reuse again when they are in need.
+And this is actually the organism that we also use for our process.
+Because this oil apparently, or that's what we have found out,
+is very similar to the oils that you find in all kinds of oil rich crops.
+Like bone seeds from the bone tree, or olive oil, or sunflower oil, or rapeseed oil.
+All have almost identical structure to the oil that we found in this world.
+So why are we focusing on this?
+We see that actually the increase of the use of edible oils,
+going for instance from bone trees, has increased tremendously over the last couple of years.
+And that again has a replacement of animal fat.
+Instead of animal fat, which is also considered not so healthy,
+people have been focusing much more on using plant derived edible oils.
+And that has increased so high and that it has led to major deforestation in tropical regions.
+Where they have established these plantations for bone trees,
+but also for other like coconut trees. It's a similar story.
+And it leads to all kinds of actually terrible things happening.
+Not only is rapidly tropical forces disappearing,
+but basically this major use of these oils,
+increased use also has a major effect on CO2 emissions.
+Actually about two and a half percent of total CO2 emissions worldwide is a result of this industry.
+So we are looking for an alternative.
+And these microbial oils are certainly sustainable alternative.
+We just have to show that it is possible to do it on this major scale
+and needed to replace these vegetable oils.
+That's where this company is going for.
+The company is actually based in Birmingham.
+And it actually resulted from work that I was doing as part of this lab in the university.
+We said where I bumped into this organism and saw the potential.
+We decided to do it ourselves.
+So this is the oil that we are talking about. These are triglycerides.
+So it's a glycerol molecule and then couple do that.
+It's a longer chain than the acid. There are three of them.
+And these three can be different.
+But they are all something in the range of C16, C8, sometimes a little bit longer.
+And this is actually, this is sort of the overall composition of these oils, these triglycerides.
+They all contain the most well-known.
+They all contain these are the major acids of C16, which is bromitic acid, C18, which is steric acid,
+oleic acid, and lean oleic acid.
+Those are the major ones that you find in the east, but also in sunflower and palm and cocoa butter.
+And in many other plants, the right oils.
+So I'll talk to the group briefly about the PhD work from, as you see recently, about our PhDs.
+He's actually now working for my company.
+It's good to have somebody with, let's say, a good background that will help us in development.
+So she was working on platforms for producing Taylor made microbial oils.
+So not only try to get as much oil as possible, but also see if you can influence the composition.
+So the whole basis of our study was sort of this development cycle where you identify a process
+and then see what is happening with respect to, in this case, also expression of relevant genes,
+see the ones that are related to a certain property, and then try to increase the expression levels of these genes
+by doing the public engineering and then test it again and see how you can improve your whole process overall.
+Let's say when she started, the situation was that we knew already some factors affecting this oil accumulation.
+That is what we call carbon to nitrogen ratio.
+So if you have a limited amount of nitrogen available, so it's a growth limiting substrate,
+then we know that they start accumulating these oils.
+We also know that there was an effect of temperature and pH and in oxygen concentration.
+But this carbon to nitrogen ratio was the most direct way of influencing the amount of oils we produced.
+So she basically tested that and when she started out with her work for these two different types of genes,
+both known to be oil accumulation.
+So she did what this is basically what it looks like, so you can look at the amount of growth
+and also of oil production with different strains, when it is low in nitrogen, higher in nitrogen.
+You can also look at how much and what is the type of oil being producing.
+You see that there are already some changes being observed.
+You can also then see here the total lipid yield is increasing when you have lower amounts of oxygen,
+but then it also affects the total amount of growth that you get.
+So you have to find sort of an optimum in this process.
+But this was also a way of finding conditions where you could actually look at differential expression of genes
+and then find out which genes are actually most relevant for influencing your oil production.
+So what she did was basically looking at up and down regulation of all the genes that were identifiable
+in conditions where there is high oil or highest oil production and lowest oil production
+and then see a differential expression and then try to find five genes that could be used for a metabolic engineering approach.
+So, well, not surprisingly probably, but she found that, let's say, the genes that are related to fatty acid synthesis
+or those are the longer-chain fatty acids that are part of the practice, right?
+That whole pathway is up-regulated under the condition where you have this nitrogen limitation.
+But that was not surprising, and so she used basically the ones that were more highest up-regulated
+to see if you could individually, but also in combination, can be overexposed
+and see what that does with your overall oil production.
+So, well, there are some, these are different genes involved in the synthesis of these fatty acids
+and she looked at individual overexpression and combination of overexpression
+and then she, in all cases, she looked at what it does with oil production.
+She also saw in her whole analysis of all these genes being over or expressed or lower expression
+that you can actually also look at specific components like a few amino acids
+and also vitamins that could have an effect on oil production.
+For instance, if you add biotin, you see an increase in oil production
+and towards some indications that also some amino acids were doing the same.
+So, she did this for both organisms and she actually managed to get, in this case, the organism here,
+which produces slightly less than 20% oil from body mass weight as a wild type
+and she could increase that to 56%, so that's a major increase and it leads to a much more interesting business case
+when you use that organism for the oil production.
+Yes.
+This was already experimental in the second part?
+This is all experimental, yeah.
+Actually, this was actually done, yeah.
+So, in this case, it was a combination of three genes that need to be over expressed, all involved in the acid biosynthesis.
+So, what I'm not going to show you now is that not only is then the amount of oil being affected
+but also the composition of the oil is affected.
+Sometimes those are just small effects, but these small effects can be quite influential,
+especially for its application because we have seen that only a few percent change in saturated fatty acids
+versus unsaturated fatty acids can lead to either a product being an oil or a product being a fat.
+Both are needed for specific applications, but if you work for a customer,
+they want the fat and they don't want the oil.
+In the other one, they want oil and not the fat.
+If this flux fluctuates and is very affected by a slight difference, you need to control that.
+That is also for us a very valuable data set to see what factors aren't really having this influence
+and how do you control that.
+That's what the business is all about, not only getting significantly increase in oil
+but also control your composition for everyday production.
+So the last few minutes I will spend on this.
+This is what we call a cost model.
+It's an exercise called technical economic assessment, TEA.
+This is basically a model that is used for the design of chemical factories
+and to see if this chemical factory can cost effective.
+You have to put in all kinds of parameters in there.
+This is about the equipment cost, about how much people are working on the process,
+what is it indeed the yield, what is the cost of the feedstock, etc.
+The process that we are now developing in this company is a process based on pure sugar,
+which is expensive and also not so sustainable.
+We are looking at the waste streams coming from the food industry, food waste.
+We are converting food waste into oil and the yeast, they need to grow on this food waste.
+We need in our whole development of this process to study how this organism performs
+on these different feedstocks.
+Those are of course the way the conversion rates, how efficient they are in oil production,
+is all part of your economic evaluation of the business case.
+Many other of these processes are involved.
+Luckily there are computer models that are able to cope with this
+and they also provide some really relevant pricing of different types of equipment, for instance.
+Then you can do that and then predict what is the cost of my product.
+If I do this and put in all these parameters that we have now sort of estimated
+or have actually measured as a result of our own process that is in the development.
+Then you get the whole list of parameters.
+I'm not going to go into detail also because it's more or less confidential,
+but I'm confident that you will not use it to start off your own company, which I never know.
+What I wanted to show you here is just an illustration of how you can play around with a model like this.
+This model also contains a parameter for volume of fermentation.
+You can put in different volumes where you can perform your fermentation and you get an indication
+of what volume you need to do this to become economically feasible.
+Here we see volumes that go where we use one or six or eight parameters.
+Four, six, and eight parameters, all on the size of 100,000 liters.
+This just gives you an indication that 100,000 liters' fermentation is the size of these upholos
+that you see when you drive from ... I'm not talking about my situation.
+You go from Wageningen to Leiden.
+You pass in Sütterraude, where is the Anika factories, and there they have these big silos.
+They're also called upholos.
+That's where they do the upholos. That's 100,000 liters.
+We are here talking about putting two of them, or four of them, or six of them, or maybe ten of them,
+and just see what is the effect on the cost.
+Then you see that if you go from ... this gets from four to eight, then you get a decrease in price.
+Then you can estimate the price for your oil being produced on this size would be a little bit over a euro,
+per kilogram of oil being produced.
+That's sort of the price range of currently whole volumes, so that's good.
+That means that if you do it at your own fermentation in your own facility, which is 200 liters,
+you will not be even close.
+That means that you really need that kind of facility to have a good business case
+where also companies will invest in your company.
+That's, of course, an issue because it's expensive, of course, to buy, to build this.
+One of the things that we have done, and that's to make it, let's say, easier to reach,
+is that we are working on what we call a low capex process.
+Low capex means that you keep your prices for equipment as low as possible.
+We do that by designing a fermentation where we do not use all these controlled reactors
+that you also find here in the lab that scale it up to 100,000 liters.
+No, we do it with more like a brewery type of vessel.
+A brewery type of vessel is an order of magnitude cheaper than a reactor with all these controls.
+That means that you have less control, but you are cheaper in price.
+Then you have to sort of balance your possibilities and try to get a process
+which also runs under these uncontrolled conditions to more or less optimal production.
+Otherwise, it will not be affordable.
+That is what we are working on.
+We use these kind of models to support us and tell us where to focus on
+and what parameters are most crucial.
+Prices of feedstocks are also very important,
+but we keep that low because we use waste.
+But as soon as everybody in the world will start using waste as their feedstock,
+then price will go up.
+We have to be also as smart and quick as possible
+to lock down major amounts of feedstock for our first factory
+that the price is not going up through the roof in the future.
+These are all elements and it's all supported by this kind of model.
+Yes?
+Sorry, the costs that we saw earlier are those for...
+Those costs that you see are those for like a liter of oil or how much?
+There's a liter of oil.
+The foam oil price is about between 1.5 euros per liter of oil.
+It depends a little bit.
+There are also fractions of foam oil which are refined
+and also fractionated where they take out a certain solid fraction
+or only a liquid fraction and they are more expensive.
+I imagine that waste is quite heterogeneous in its composition sometimes.
+How do you handle that when you quantify for a high scale?
+That's of course the major challenge that we have now
+because we do see effects of growth performance of the yeast on the oil proposition.
+You can imagine that this growth performance is affected
+by the composition of your waste.
+What we do now with current waste streams is that we find out what effects
+and how we get at what is having this direct effect on this variation in growth.
+These are usually a couple of minerals.
+What we do is just add those in excess to avoid any kind of thing changing.
+The rest is all about presence of sugar.
+Sugar is always there.
+We have to do that exercise with every new feedstock that we test.
+That's why we will always have quite a big R&D group
+to be able to develop all kinds of new processes in the future
+for all these different waste streams that are suitable for this process.
+We need to do that if we want to replace all oil.
+We need a tremendous amount of these factories spread over the wall.
+That's our intention.
+Where are we now with this company?
+We are working now for the first time with this scale of 100,000 liters.
+We don't have that ourselves, so we have to go externally to do that.
+We hire fermentation time at the facility, in this case in Germany.
+Hopefully they do all the things good that we ask them to.
+We are there, but we are not allowed to touch the machines.
+We are very much dependent on the quality of these people out there.
+That does not always work out perfectly.
+We know that already. That's why we want, as quickly as possible,
+our own demo factory that we can, for the future, also develop in-house everything.
+The interesting thing is that it leads to these kinds of containers
+with large amounts of oil.
+We are really feeling that we are seriously now producing something.
+This happened within three and a half years of the company.
+We see that as relatively quick,
+although we are impatient, we always want to go faster.
+Because there is an urgent problem that the tropical forests are disappearing
+much faster than what we are trying to achieve here.
+There is some urgency involved.
+I am wrapping up.
+The genome scale models are definitely helpful in understanding
+all kinds of microbial limitations.
+In general, let's say a modeling approach can be used for improving growth.
+It could be specific components like flavor, nutritional enrichment, oil production.
+You can also use a mathematical model of your isolated pathways,
+but as soon as it becomes too complicated, you probably run out of options.
+Let's say this business model is extremely important to explain the business case
+to outsiders like your future customers, but also especially your investors.
+They want to see this.
+Thank you for your attention.
+Any more questions?
+Did they ask more questions during the lecture?
+No more questions, yes.
+Okay.
+Well, any dead case here?
