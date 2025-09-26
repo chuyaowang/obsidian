@@ -38,6 +38,7 @@ alias glta='git log --graph --decorate --pretty='\''%Cred%h%Creset -%C(auto)%d%C
 [Choose license](https://choosealicense.com/)
 [How to set it up](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 `git remote add origin https://github.com/chuyaowang/bluearchiveApp` set up remote repo
+`git pull --rebase origin main` if the new repository already contains license, .gitignore etc. Use this command to pull and rebase. Rebasing happens between origin/main and local/main
 `git push --set-upstream origin main`: set up upstream branch to use `git push` to directly push to this repo
 `git push -u origin main`: push to this repo and the local main branch，-u is shorthand for --set-upstream
 `git pull --rebase`: [rebase vs. merge explain](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)

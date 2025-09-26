@@ -85,6 +85,7 @@
 
 - Aligns the retention time of peaks across multiple data files.
 - *Reference File*: Use the drop-down menu to choose one file as the reference. This could be the first sample or a QC sample.
+	- In our case the QC sample is a mixture of all the samples.
 
 #### Detect Compounds
 

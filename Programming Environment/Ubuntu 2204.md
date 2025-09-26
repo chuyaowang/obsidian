@@ -235,3 +235,16 @@ Go into Software & Updates, choose new server location.
 ## Install fonts (like Times New Roman)
 
 https://itsfoss.com/install-microsoft-fonts-ubuntu/
+
+## Tailscale
+
+- Trying this as a [Zero Tier One](#Zero%20Tier%20One) replacement
+- Starts automatically
+
+## Whisper
+
+- Installed to pytorch251 [conda](Programming%20Environment/conda.md) env
+
+## opencl
+
+`sudo apt install ocl-icd-opencl-dev clinfo`

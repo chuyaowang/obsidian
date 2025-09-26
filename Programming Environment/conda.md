@@ -112,3 +112,112 @@ https://docs.conda.io/projects/conda-build/en/latest/user-guide/tutorials/build-
 - add or remove channels
 - located at `~`
 - `conda config --show channels` to show all channels
+
+## Remove conda environment
+
+### 🔹 Removing a Conda Environment
+
+1. **List environments**
+    
+    ```bash
+    conda env list
+    ```
+    
+2. **Deactivate current env**
+    
+    ```bash
+    conda deactivate
+    ```
+    
+3. **Remove environment completely**
+    
+    ```bash
+    conda remove --name ENV_NAME --all
+    ```
+    
+    - Deletes the environment and all its packages.
+    - If created with a custom path:
+        
+        ```bash
+        conda remove -p /path/to/env --all
+        ```
+        
+
+---
+
+### 🔹 Cleaning Up Conda Caches
+
+Conda stores package tarballs and unused packages in a shared cache (`pkgs/`), which can grow large.
+
+- **Remove unused packages**
+    
+    ```bash
+    conda clean -p
+    ```
+    
+- **Remove tarballs**
+    
+    ```bash
+    conda clean -t
+    ```
+    
+- **Full cleanup (safe default)**
+    
+    ```bash
+    conda clean -a -y
+    ```
+    
+    Removes: unused packages, tarballs, index cache, logs.
+- ⚠️ Avoid `-f` unless you want to force‑remove _all_ caches (can break environments).
+
+---
+
+### 🔹 Checking Disk Usage per Environment (with Sorting)
+
+#### Linux / macOS
+
+```bash
+du -sh ~/miniconda3/envs/* | sort -h
+```
+
+- `du -sh` → show size of each environment folder
+- `sort -h` → sort by human‑readable size (smallest → largest)
+
+To see **largest first**:
+
+```bash
+du -sh ~/miniconda3/envs/* | sort -hr
+```
+
+#### Windows (PowerShell)
+
+```powershell
+Get-ChildItem "C:\Users\<username>\Anaconda3\envs" |
+  ForEach-Object {
+    $size = (Get-ChildItem $_.FullName -Recurse | Measure-Object Length -Sum).Sum / 1MB
+    [PSCustomObject]@{Env=$_.Name; SizeMB=[math]::Round($size,2)}
+  } | Sort-Object SizeMB -Descending
+```
+
+- Lists each environment with its size in MB
+- Sorted from largest to smallest
+
+---
+
+### ✅ Workflow Recap
+
+1. **Check env sizes** (sorted)
+    - Linux/macOS: `du -sh ~/miniconda3/envs/* | sort -hr`
+    - Windows: PowerShell snippet above
+2. **Delete environment**
+    
+    ```bash
+    conda remove --name myenv --all
+    ```
+    
+3. **Clean caches**
+    
+    ```bash
+    conda clean -a -y
+    ```
+    

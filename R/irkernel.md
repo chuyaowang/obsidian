@@ -28,3 +28,4 @@ ln -s /your/renv_folder/directory/ /your/notebook/directory/
 ln -s /your/.Rprofile/directory/ /your/notebook/directory/
 ```
 
+renv folder, renv_lock, Rprofile

@@ -9,7 +9,7 @@ Meaning:
 ``` bash
 conda activate selenium
 conda install ipykernel
-ipython kernel install --user --name=selenium
+python -m ipython kernel install --sys-prefix --name=selenium
 conda deactivate
 ```
 

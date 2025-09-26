@@ -2,6 +2,7 @@
 
 > [EMBI training](https://www.ebi.ac.uk/training/events/studying-metabolites-and-small-molecules-metabolights-and-chebi)
 > #seminar 
+
 ## Metabolism
 
 - Catabolism: breaking down molecules, releasing energy
