@@ -13,6 +13,14 @@ python -m ipython kernel install --sys-prefix --name=selenium
 conda deactivate
 ```
 
+or 
+```
+/opt/miniconda3/envs/omnipose/bin/python -c 'import IPython' 
+/opt/miniconda3/envs/omnipose/bin/ipython kernel install --sys-prefix --name=omnipose
+``` 
+
+if python cannot import ipython properly
+
 ## irkernel
 
 [irkernel](irkernel.md)

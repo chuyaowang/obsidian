@@ -245,6 +245,10 @@ https://itsfoss.com/install-microsoft-fonts-ubuntu/
 
 - Installed to pytorch251 [conda](Programming%20Environment/conda.md) env
 
+```bash
+whisper <file_name> --model turbo --language English
+```
+
 ## opencl
 
 `sudo apt install ocl-icd-opencl-dev clinfo`

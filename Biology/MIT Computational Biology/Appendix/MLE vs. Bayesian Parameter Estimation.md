@@ -83,6 +83,13 @@ For parameter estimation: use distributions and probability density functions in
 - $p(D|\theta)$: likelihood function
 - $p(\theta)$: prior distribution 
 
+$$
+\begin{array}
+\\
+p(\text{crossing}|\text{dist})=&\frac{p(\text{dist}|\text{crossing})p(\text{crossing})}{p(\text{dist})}\\
+p(\text{crossing}|\text{dist})=&\frac{p(\text{dist}|\text{crossing})p(\text{crossing})}{\int p(\text{dist}|\text{crossing})p(\text{crossing}) d\text{crossing}}
+\end{array}
+$$
 ### The prior
 
 The prior can be hard to define as a probability distribution. It is also argued that since different prior beliefs will lead to different posteriors, the Bayesian approach is not scientific enough. The counter argument says that many subjective choices are already made in conducting an experiment.
@@ -95,29 +102,29 @@ An alternative way is to use Markov Chain Monte Carlo (MCMC) sampling, a method 
 
 ### Example: Estimating the Mean of a Normal Distribution
 
-Suppose you want to estimate the mean (μ\mu) of a normal distribution with known variance, based on observed data.
+Suppose you want to estimate the mean $\mu$ of a normal distribution with known variance, based on observed data.
 
-1. **Define the likelihood**: The likelihood is the probability of observing the data D=(x1,x2,…,xn)D = (x_1, x_2, \dots, x_n), given the mean μ\mu and the known variance σ2\sigma^2:
+1. **Define the likelihood**: The likelihood is the probability of observing the data $D = (x_1, x_2, \dots, x_n)$, given the mean $\mu$ and the known variance $\sigma^2$:
     
-    P(D∣μ)=∏i=1n12πσ2exp⁡(−(xi−μ)22σ2)P(D \mid \mu) = \prod_{i=1}^{n} \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(x_i - \mu)^2}{2\sigma^2} \right)
-2. **Specify the prior**: Let's choose a normal prior for μ\mu:
+    $$P(D \mid \mu) = \prod_{i=1}^{n} \frac{1}{\sqrt{2\pi\sigma^2}} \exp\left( -\frac{(x_i - \mu)^2}{2\sigma^2} \right)$$
+1. **Specify the prior**: Let's choose a normal prior for $\mu$:
     
-    P(μ)∼N(0,10)P(\mu) \sim \mathcal{N}(0, 10)
+    $P(\mu) \sim \mathcal{N}(0, 10)$
     
-    This means we believe the mean μ\mu is likely to be around 0, with some uncertainty.
+    This means we believe the mean $\mu$ is likely to be around 0, with some uncertainty.
     
-3. **Compute the posterior**: By applying Bayes’ theorem:
+2. **Compute the posterior**: By applying Bayes’ theorem:
     
-    P(μ∣D)∝P(D∣μ)P(μ)P(\mu \mid D) \propto P(D \mid \mu) P(\mu)
+    $$P(\mu \mid D) \propto P(D \mid \mu) P(\mu)$$
     
-    This gives us the posterior distribution for μ\mu. However, computing this posterior analytically is difficult, so we use **MCMC** to sample from this distribution.
+    This gives us the posterior distribution for $\mu$. However, computing this posterior analytically is difficult, so we use **MCMC** to sample from this distribution.
     
-4. **Use MCMC to sample from the posterior**: You can use a package like `rstan` (Stan) or `PyMC3` in Python to perform MCMC sampling. These packages will give you a sample of parameter values from the posterior.
+3. **Use MCMC to sample from the posterior**: You can use a package like `rstan` (Stan) or `PyMC3` in Python to perform MCMC sampling. These packages will give you a sample of parameter values from the posterior.
     
-5. **Summarize the posterior**: After running MCMC, you get a set of samples for μ\mu. You can compute the posterior mean and credible intervals for μ\mu. For example, you might find:
+4. **Summarize the posterior**: After running MCMC, you get a set of samples for $\mu$. You can compute the posterior mean and credible intervals for $\mu$. For example, you might find:
     
-    - **Posterior mean of μ\mu**: μ^=1.3\hat{\mu} = 1.3
-    - **95% credible interval**: [1.1,1.5][1.1, 1.5]
+    - **Posterior mean of $\mu$**: $\hat{\mu} = 1.3$
+    - **95% credible interval**: $[1.1, 1.5]$
 
 ### Summary:
 

@@ -17,3 +17,9 @@
 
 - conda and pytorch also come with cudatoolkit and cudnn, but they are not the complete package
 - Just use the installer from Nvidia
+
+## Check version
+
+```bash
+nvidia-smi
+```
