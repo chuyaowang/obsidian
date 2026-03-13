@@ -37,7 +37,7 @@ The key insight: nuclear activity determines the local cytoplasm in a syncytium,
 * **Spindle pole body (SPB)** — fungal equivalent of the centrosome; SPB morphology indicates cell-cycle stage (single SPB = G1, duplicated = S/G2, separated = M).
 * **smFISH (single-molecule fluorescence in situ hybridization)** — a microscopy method using fluorescent probes to count individual mRNA molecules and visualize active transcription sites as bright nuclear foci.
 * **Nuclear domain (ND)** — the region of cytoplasm considered “closest” to a given nucleus (implemented here with a 3D Voronoi partitioning).
-* **#N/C** — number of nuclei per unit cytoplasmic volume (nuclei-to-cytoplasm ratio), an important homeostatic quantity.
+* **\#N/C** — number of nuclei per unit cytoplasmic volume (nuclei-to-cytoplasm ratio), an important homeostatic quantity.
 * **diSPIM (dual-view light-sheet microscopy)** — fast, low-phototoxicity 3D imaging used to track nuclear movement in clusters.
 
 In systems like *A. gossypii*, nuclei divide **asynchronously**—a nucleus in mitosis may neighbor one in G1. The big question is:
@@ -439,7 +439,7 @@ $$
 
 **Novelty**
 
-* The combination of clustering mutant + single-molecule spatial analysis provides strong evidence that nuclear-intrinsic autonomous behavior does not require large local cytoplasmic insulation. The demonstration that transcriptionally active nuclei create local mRNA enrichment while global #N/C remains regulated is a clear conceptual advance.
+* The combination of clustering mutant + single-molecule spatial analysis provides strong evidence that nuclear-intrinsic autonomous behavior does not require large local cytoplasmic insulation. The demonstration that transcriptionally active nuclei create local mRNA enrichment while global \#N/C remains regulated is a clear conceptual advance.
 
 **Caveat**
 

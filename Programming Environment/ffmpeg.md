@@ -54,3 +54,11 @@ ffmpeg will complain but ignore it
 ```
 ffmpeg -i Movie.mkv -map 0:s:0 subs.srt
 ```
+
+## Cut segment from file and re-encode
+
+```bash
+ffmpeg -ss 02:31:59 -to 04:28:32 -i day1.flac day1_dj.flac
+```
+
+- With the `.flac` format, this operation is lossless. 

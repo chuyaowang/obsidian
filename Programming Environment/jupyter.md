@@ -20,7 +20,7 @@ or
 ``` 
 
 if python cannot import ipython properly
-
+/opt/miniconda3/envs/google_adk/bin/ipython kernel install --sys-prefix --name=omnipose
 ## irkernel
 
 [irkernel](irkernel.md)
@@ -104,4 +104,24 @@ https://ericmjl.github.io/data-science-bootstrap-notes/turbocharge-jupyter-lab-u
 
 ```bash
 jupyer lab list
+```
+
+## Automatic reloading of editable libraries in jupyter notebook
+
+[Auto-Reloading in Jupyter Notebooks](Python/Auto-Reloading%20in%20Jupyter%20Notebooks.md)
+
+## Find active kernels and stop them all
+
+To list and shut down all active Jupyter kernels using standard Linux process management:
+
+**List active kernels:**
+
+```bash
+ps aux | grep ipykernel | grep -v grep
+```
+
+**Shut down all active kernels:**
+
+```bash
+ps aux | grep ipykernel | grep -v grep | awk '{print $2}' | xargs kill
 ```
