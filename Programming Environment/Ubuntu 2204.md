@@ -252,3 +252,20 @@ whisper <file_name> --model turbo --language English
 ## opencl
 
 `sudo apt install ocl-icd-opencl-dev clinfo`
+
+## Zoxide
+
+``` bash
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+```
+
+``` bash
+Detected architecture: x86_64-unknown-linux-musl
+Downloaded package: zoxide.tar.gz
+Installed zoxide to /home/wangchuyao/.local/bin
+Installed manpages to /home/wangchuyao/.local/share/man
+
+zoxide is installed!
+Note: /home/wangchuyao/.local/bin is not on your $PATH. zoxide will not work unless it is added to $PATH.
+```
+
